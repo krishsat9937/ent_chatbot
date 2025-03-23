@@ -2,7 +2,8 @@ import { useState } from "react";
 import Message from "./Message";
 import Loader from "./Loader";
 
-const API_URL = "http://localhost:5001/chat"; // Update if hosted
+const BACKEND_URL = process.env.BACKEND_URL || "http://localhost:8000"; // Update if hosted
+const API_URL = `${BACKEND_URL}/chat`; // Update if hosted
 const MAX_MESSAGES = 20; // ✅ Chat limit
 
 const Chat = () => {
