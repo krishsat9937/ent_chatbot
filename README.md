@@ -24,7 +24,7 @@ Make sure BACKEND_URL=http://localhost:8000 is set in frontend/.env
 
 ```bash
 # Clone the repo
-git clone https://github.com/your-username/ENTChat.git
+git clone https://github.com/krishsat9937/ent_chatbot.git
 cd ENTChat
 
 # Run everything
