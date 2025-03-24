@@ -1,0 +1,573 @@
+Disease Name,Common Symptoms,Patient Reported Symptoms,Additional Symptoms,Severity,Possible Causes
+Acoustic Neuroma,"Unilateral hearing loss, tinnitus",Gradual loss of hearing in one ear,"Dizziness, facial numbness",Moderate,"Genetic mutations, radiation exposure"
+Acoustic Neuroma,"Tinnitus, balance issues","Ringing in the ear, unsteadiness","Headaches, facial weakness",Mild,Sporadic gene mutation
+Acoustic Neuroma,"Unilateral hearing loss, dizziness",Sudden hearing loss on one side,"Tinnitus, vertigo",Severe,Neurofibromatosis type II
+Acoustic Neuroma,"Facial numbness, tinnitus","Numbness in facial area, buzzing in ear","Balance problems, headaches",Moderate,Schwann cell overproduction
+Acoustic Neuroma,"Unilateral hearing loss, vertigo","Difficulty hearing on one side, spinning sensation","Tinnitus, facial weakness",Severe,Chromosome 22 mutation
+Acoustic Neuroma,"Tinnitus, facial weakness","Continuous ringing in ear, drooping facial muscles","Dizziness, headaches",Moderate,Genetic predisposition
+Acoustic Neuroma,"Balance issues, unilateral hearing loss","Frequent falls, reduced hearing on one side","Tinnitus, facial numbness",Mild,Environmental factors
+Acoustic Neuroma,"Dizziness, tinnitus","Lightheadedness, persistent ear ringing","Unsteady gait, facial weakness",Moderate,Sporadic occurrence
+Acoustic Neuroma,"Facial numbness, balance issues","Tingling sensation in face, loss of balance","Hearing loss, tinnitus",Severe,Radiation exposure
+Acoustic Neuroma,"Unilateral hearing loss, headaches","Muffled hearing on one side, persistent headaches","Tinnitus, dizziness",Moderate,Genetic mutations
+Acoustic Neuroma,"Tinnitus, vertigo","Buzzing in ear, episodes of spinning","Hearing loss, facial numbness",Severe,Schwann cell proliferation
+Acoustic Neuroma,"Facial weakness, dizziness","Drooping on one side of face, lightheadedness","Tinnitus, balance issues",Moderate,Chromosome 22 anomaly
+Acoustic Neuroma,"Unilateral hearing loss, facial numbness","Decreased hearing on one side, facial tingling","Dizziness, tinnitus",Mild,Genetic factors
+Acoustic Neuroma,"Tinnitus, headaches","Constant ear ringing, frequent headaches","Hearing loss, balance problems",Moderate,Environmental influences
+Acoustic Neuroma,"Balance issues, facial weakness","Unsteady while walking, facial drooping","Tinnitus, dizziness",Severe,Sporadic gene mutation
+Acoustic Neuroma,"Dizziness, unilateral hearing loss","Vertigo, reduced hearing on one side","Tinnitus, facial numbness",Moderate,Neurofibromatosis type II
+Acoustic Neuroma,"Facial numbness, tinnitus","Numbness in face, continuous ear buzzing","Balance issues, headaches",Mild,Schwann cell overgrowth
+Acoustic Neuroma,"Unilateral hearing loss, vertigo","Hearing decline on one side, spinning sensation","Tinnitus, facial weakness",Severe,Genetic mutations
+Acoustic Neuroma,"Tinnitus, facial weakness","Persistent ringing in ear, facial muscle weakness","Dizziness, headaches",Moderate,Chromosome 22 mutation
+Acoustic Neuroma,"Balance issues, unilateral hearing loss","Difficulty maintaining balance, hearing loss on one side","Tinnitus, facial numbness",Mild,Genetic predisposition
+Adenoiditis,"Nasal congestion, sore throat","Blocked nose, pain in throat","Ear pain, fever",Moderate,Bacterial or viral infection
+Adenoiditis,"Runny nose, difficulty breathing","Persistent nasal discharge, shortness of breath","Snoring, ear discomfort",Mild,Bacterial infection
+Adenoiditis,"Postnasal drip, nasal congestion","Mucus dripping into throat, blocked nose","Sore throat, mild fever",Moderate,Viral infection
+Adenoiditis,"Swollen adenoids, nasal blockage","Inflamed throat, trouble breathing through nose","Cough, ear infections",Severe,Chronic sinus infections
+Adenoiditis,"Mouth breathing, persistent cough","Breathing mostly through mouth, dry throat","Snoring, bad breath",Moderate,Allergic reaction
+Adenoiditis,"Fever, enlarged adenoids","High temperature, swollen lymph nodes","Fatigue, ear discomfort",Severe,Bacterial streptococcal infection
+Adenoiditis,"Nasal speech, hoarseness","Talking with nasal sound, hoarse voice","Snoring, difficulty swallowing",Moderate,Recurrent throat infections
+Adenoiditis,"Frequent ear infections, cough","Recurring ear pain, constant coughing","Runny nose, mild fever",Mild,Viral pathogens
+Adenoiditis,"Blocked nose, difficulty sleeping","Nasal congestion, disrupted sleep","Snoring, headaches",Moderate,Exposure to allergens
+Adenoiditis,"Persistent sore throat, facial pressure","Throat pain for weeks, tightness in face","Sinus pain, cough",Severe,Untreated upper respiratory infections
+Adenoiditis,"Swollen tonsils, difficulty swallowing","Enlarged tonsils, trouble eating","Ear pain, nasal congestion",Moderate,Bacterial infection
+Adenoiditis,"Breathing difficulties, sleep apnea","Obstructed breathing, trouble sleeping","Snoring, headaches",Severe,Chronic allergies
+Adenoiditis,"Persistent mucus, mild fever","Thick nasal discharge, low-grade fever","Postnasal drip, coughing",Mild,Common cold virus
+Adenoiditis,"Throat discomfort, ear blockage","Irritated throat, ear pressure","Muffled hearing, fatigue",Moderate,Environmental pollutants
+Adenoiditis,"Recurring sinus infections, congestion","Repeated sinus pain, nasal stuffiness","Headaches, dry throat",Severe,Immune system deficiency
+Adenoiditis,"Facial pain, inflamed throat","Pressure in face, redness in throat","Earache, fatigue",Moderate,Bacterial complications
+Adenoiditis,"Snoring, heavy breathing","Loud snoring, deep inhaling during sleep","Daytime drowsiness, nasal discharge",Severe,Obstructive airway disorder
+Adenoiditis,"Chronic nasal congestion, fatigue","Constant stuffy nose, feeling exhausted","Sinus pressure, mild fever",Moderate,Recurrent infections
+Adenoiditis,"Dry mouth, swallowing difficulty","Feeling of dry mouth, throat pain while swallowing","Hoarseness, mild fever",Mild,Seasonal allergies
+Adenoiditis,"Recurring throat infections, voice changes","Frequent sore throat, altered voice tone","Ear infections, nasal obstruction",Moderate,Chronic bacterial exposure
+Allergic Rhinitis,"Sneezing, nasal congestion","Frequent sneezing, blocked nose","Watery eyes, itchy throat",Mild,Pollen exposure
+Allergic Rhinitis,"Runny nose, itchy eyes","Persistent nasal discharge, eye irritation","Sneezing, postnasal drip",Moderate,Dust mites
+Allergic Rhinitis,"Sinus pressure, nasal congestion","Facial tightness, difficulty breathing through nose","Sneezing, watery eyes",Mild,Pet dander
+Allergic Rhinitis,"Persistent sneezing, postnasal drip","Uncontrollable sneezing, mucus dripping into throat","Itchy nose, nasal congestion",Moderate,Seasonal allergies
+Allergic Rhinitis,"Nasal itching, congestion","Continuous nose irritation, trouble breathing through nose","Watery eyes, sore throat",Severe,Mold spores
+Allergic Rhinitis,"Red eyes, coughing","Bloodshot eyes, dry cough","Fatigue, nasal congestion",Moderate,Grass pollen
+Allergic Rhinitis,"Watery eyes, difficulty sleeping","Excessive tearing, trouble falling asleep","Sneezing, postnasal drip",Mild,Airborne allergens
+Allergic Rhinitis,"Chronic nasal congestion, fatigue","Blocked nose, tiredness throughout the day","Headaches, sneezing",Severe,Dust allergies
+Allergic Rhinitis,"Itchy throat, postnasal drip","Irritated throat, mucus buildup","Cough, difficulty swallowing",Moderate,Pet hair exposure
+Allergic Rhinitis,"Runny nose, frequent headaches","Constantly dripping nose, pressure headaches","Nasal congestion, fatigue",Mild,Tree pollen
+Allergic Rhinitis,"Persistent cough, nasal irritation","Dry coughing episodes, itchy nose","Sinus pain, postnasal drip",Moderate,Air pollution
+Allergic Rhinitis,"Sinus pressure, ear fullness","Headache due to sinus swelling, sensation of plugged ears","Sneezing, dry throat",Mild,Household dust
+Allergic Rhinitis,"Mild fever, nasal discharge","Low-grade fever, runny nose","Sinus pressure, sneezing",Moderate,Seasonal allergens
+Allergic Rhinitis,"Frequent throat clearing, nasal itching","Constant need to clear throat, irritated nose","Watery eyes, postnasal drip",Severe,Mold spores
+Allergic Rhinitis,"Chronic dry throat, congestion","Persistent dryness in throat, stuffy nose","Coughing, mild fever",Moderate,Chemical irritants
+Allergic Rhinitis,"Daytime drowsiness, nasal congestion","Feeling exhausted during the day, stuffy nose","Frequent sneezing, sinus pain",Severe,Pollen exposure
+Allergic Rhinitis,"Hoarseness, itchy nose","Voice changes, constant nose irritation","Watery eyes, nasal congestion",Moderate,Dust and pollen
+Allergic Rhinitis,"Swollen sinuses, sore throat","Facial tightness, discomfort while swallowing","Fatigue, nasal congestion",Mild,Outdoor allergens
+Allergic Rhinitis,"Watery nasal discharge, sneezing","Excessive clear nasal mucus, repetitive sneezing","Postnasal drip, itchy throat",Moderate,Grass and tree pollen
+Allergic Rhinitis,"Chronic nasal congestion, breathing issues",Difficulty breathing due to blocked nasal passages,"Sneezing, watery eyes",Severe,Indoor dust exposure
+Anosmia,"Loss of smell, nasal congestion","Unable to detect odors, blocked nose","Taste alteration, dry nose",Moderate,"Viral infections (e.g., COVID-19)"
+Anosmia,"Partial loss of smell, difficulty detecting food aromas","Weakened scent recognition, muted flavors","Sinusitis, mild headaches",Mild,Chronic sinus infections
+Anosmia,"Complete loss of smell, dry nasal passages","No scent detection, sensation of nasal dryness","Loss of appetite, headaches",Severe,Head trauma
+Anosmia,"Temporary smell loss, nasal swelling","Reduced smell sensitivity, nasal inflammation","Sinus congestion, sneezing",Moderate,Allergic reactions
+Anosmia,"Reduced smell perception, respiratory discomfort","Weaker smell recognition, trouble breathing through nose","Dry throat, taste impairment",Severe,Neurological disorders
+Aphonia,"Complete voice loss, dry throat","Inability to speak, throat irritation","Cough, vocal cord strain",Moderate,Laryngeal nerve damage
+Aphonia,"Hoarseness, voice fatigue","Weak voice, throat discomfort","Mild throat pain, dry cough",Mild,Overuse of vocal cords
+Aphonia,"Sudden voice loss, sore throat","Abrupt inability to talk, throat irritation","Cough, vocal strain",Severe,Vocal cord paralysis
+Aphonia,"Whispered speech, chronic throat pain","Weak voice output, throat discomfort","Difficulty swallowing, ear pain",Moderate,Neurological conditions
+Aphonia,"Voice strain, speaking difficulties","Effortful speech, throat tightness","Hoarseness, chest discomfort",Mild,Laryngitis
+Barotrauma,"Ear pain, hearing changes","Ear discomfort, muffled hearing","Dizziness, nasal congestion",Moderate,"Air pressure changes (e.g., flying)"
+Barotrauma,"Ear fullness, mild discomfort","Pressure sensation in ears, minor ear pain","Nasal congestion, mild headaches",Mild,Deep-sea diving
+Barotrauma,"Ear popping, eardrum pain","Pressure imbalance, sudden earache","Dizziness, hearing loss",Severe,Rapid altitude shifts
+Barotrauma,"Tinnitus, ear pressure","Buzzing sounds, sensation of clogged ears","Muffled hearing, headaches",Moderate,Exposure to loud sounds
+Barotrauma,"Vertigo, sinus discomfort","Spinning sensation, nasal pain","Ear blockage, nausea",Mild,Sinus infections
+BPPV,"Sudden dizziness, nausea","Intense spinning sensation, feeling unsteady","Vomiting, headache",Moderate,Calcium crystals in inner ear
+BPPV,Vertigo when moving head,Lightheadedness when turning head,"Mild imbalance, ear pressure",Mild,Head trauma
+BPPV,"Short episodes of vertigo, motion sensitivity",Feeling dizzy when changing positions,"Nausea, blurred vision",Severe,Inner ear infections
+BPPV,"Unsteady gait, dizziness","Trouble maintaining balance, spinning sensation","Nausea, rapid eye movement",Moderate,Aging-related degeneration
+BPPV,"Sudden vertigo, feeling of falling","Brief but intense dizziness, sensation of falling","Sweating, ear fullness",Severe,Inner ear dysfunction
+Branchial Cleft Cyst,"Neck lump, painless swelling","Soft mass on neck, mild discomfort","Tenderness, difficulty swallowing",Moderate,Congenital abnormality
+Branchial Cleft Cyst,"Neck mass, fluid drainage",Swelling with occasional fluid leakage,"Redness, pain upon touch",Mild,Developmental defect
+Branchial Cleft Cyst,"Recurring infections, swollen neck",Neck swelling with periodic infections,"Fever, pus drainage",Severe,Untreated cyst infection
+Branchial Cleft Cyst,"Difficulty moving neck, pain","Neck stiffness, discomfort","Difficulty swallowing, voice changes",Moderate,Genetic malformation
+Branchial Cleft Cyst,"Skin irritation, swollen lymph nodes","Neck rash, mild lymph node swelling","Tenderness, discharge",Mild,Bacterial infection
+Rhinitis,"Runny nose, sneezing","Frequent sneezing, nasal discharge","Watery eyes, nasal congestion",Mild,Allergens like pollen or dust
+Rhinitis,"Postnasal drip, nasal congestion","Mucus buildup in throat, difficulty breathing","Headache, mild fever",Moderate,Viral infections
+Hoarseness,"Raspy voice, throat irritation","Changes in voice, scratchy throat","Dry cough, difficulty speaking",Mild,Vocal cord strain
+Hoarseness,"Weak voice, vocal fatigue","Loss of voice strength, throat discomfort","Difficulty swallowing, sore throat",Moderate,Laryngitis
+Septal Hematoma,"Nasal congestion, nose swelling","Blocked nasal passages, visible swelling","Facial pressure, fever",Moderate,Nasal trauma
+Septal Hematoma,"Nosebleeds, nasal pain","Frequent bleeding, tenderness in nose","Bruising, headaches",Severe,Untreated nasal injury
+Foreign Bodies in Ear/Nose/Throat,"Ear pain, muffled hearing","Discomfort in ear, trouble hearing","Dizziness, ear drainage",Moderate,Small objects lodged in ear canal
+Foreign Bodies in Ear/Nose/Throat,"Nasal obstruction, breathing difficulty","Blocked nose, difficulty inhaling","Foul smell, nasal discharge",Severe,Objects stuck in nasal cavity
+Tracheomalacia,"Noisy breathing, weak cry","High-pitched sounds while breathing, weak voice","Difficulty feeding, cyanosis",Severe,Congenital birth defect
+Tracheomalacia,"Breathing difficulties, recurrent infections","Labored breathing, frequent respiratory infections","Choking episodes, poor weight gain",Moderate,Weak tracheal cartilage
+Eustachian Tube Dysfunction,"Ear fullness, muffled sounds","Sensation of blocked ears, difficulty hearing","Tinnitus, dizziness",Mild,Frequent sinus infections
+Eustachian Tube Dysfunction,"Popping sensation, hearing fluctuations",Crackling or popping sounds in ears,"Ear pain, balance issues",Moderate,Air pressure changes
+Ludwig's Angina,"Swollen neck, breathing difficulty","Painful swelling under jaw, trouble breathing","Fever, drooling",Severe,Dental infections
+Ludwig's Angina,"Muffled voice, facial swelling","Hoarse speech, swelling in face","Neck pain, high fever",Moderate,Untreated dental abscess
+Presbycusis,"Gradual hearing loss, trouble in noisy environments","Difficulty understanding speech, sensitivity to background noise","Tinnitus, balance problems",Moderate,Aging-related degeneration
+Presbycusis,Difficulty hearing high-pitched sounds,"Reduced ability to hear birds, alarms","Ear ringing, mild vertigo",Mild,Genetic predisposition
+Voice Disorders,"Rough voice, pitch instability",Difficulty maintaining tone while speaking,"Throat irritation, hoarseness",Moderate,Vocal cord overuse
+Voice Disorders,"Whispery speech, vocal fatigue","Soft or weak voice, struggling to talk","Frequent throat clearing, dry mouth",Mild,Neurological disorders
+Meniere's Disease,"Vertigo, hearing loss","Sudden dizzy spells, fluctuating hearing","Tinnitus, ear fullness",Severe,Inner ear fluid imbalance
+Meniere's Disease,"Nausea, balance problems","Episodes of nausea, unsteady walking","Anxiety, sensitivity to sound",Moderate,Autoimmune disorders
+Oropharyngeal Cancer,"Persistent sore throat, voice changes","Long-term throat pain, hoarse voice","Ear pain, difficulty swallowing",Severe,"HPV, smoking"
+Oropharyngeal Cancer,"Lump in throat, unexplained weight loss","Feeling of something stuck in throat, appetite loss","Coughing up blood, fatigue",Severe,Heavy alcohol use
+Thyroid Disorders,"Fatigue, weight changes","Extreme tiredness, unexpected weight loss or gain","Swelling in neck, mood swings",Moderate,Hormonal imbalance
+Thyroid Disorders,"Cold intolerance, hair thinning","Feeling unusually cold, hair loss","Hoarseness, dry skin",Mild,Autoimmune diseases
+Facial Nerve Paralysis (Bell's Palsy),"Facial drooping, inability to close one eye",Weakness on one side of face,"Loss of taste, ear pain",Moderate,"Viral infections (e.g., HSV)"
+Facial Nerve Paralysis (Bell's Palsy),"Slurred speech, difficulty blinking",Reduced ability to move facial muscles,"Tearing, hypersensitivity to sound",Severe,Inflammation of facial nerve
+Superior Canal Dehiscence Syndrome (SCDS),"Hearing sensitivity, dizziness","Amplified internal sounds, imbalance","Headaches, vision issues",Moderate,Thin bone over ear canal
+Superior Canal Dehiscence Syndrome (SCDS),"Tinnitus, vertigo","Buzzing in ears, spinning sensation","Fullness in ears, motion sickness",Severe,Inner ear defects
+Gastroesophageal Reflux Disease (GERD),"Heartburn, acid regurgitation","Burning sensation in chest, sour taste in mouth","Chronic cough, sore throat",Moderate,Weak lower esophageal sphincter
+Gastroesophageal Reflux Disease (GERD),"Nighttime reflux, difficulty swallowing","Worsening symptoms at night, food sticking","Hoarseness, dental erosion",Severe,"Obesity, smoking"
+Swallowing Disorders (Dysphagia),"Difficulty swallowing, choking","Feeling of food getting stuck, coughing while eating","Weight loss, throat pain",Moderate,Neurological conditions
+Swallowing Disorders (Dysphagia),"Painful swallowing, reflux","Burning sensation while swallowing, regurgitation","Hoarseness, chest discomfort",Severe,"GERD, esophageal strictures"
+Sleep Apnea,"Snoring, daytime sleepiness","Loud snoring, feeling tired during day","Morning headaches, dry mouth",Moderate,"Obesity, airway obstruction"
+Sleep Apnea,"Breathing pauses, restless sleep","Interrupted breathing at night, frequent awakenings","Memory problems, irritability",Severe,Neuromuscular conditions
+CSF Leak,"Persistent headache, clear nasal drainage","Constant head pain, fluid leaking from nose","Neck stiffness, nausea",Severe,Head trauma
+CSF Leak,"Runny nose, dizziness","Watery nasal discharge, feeling lightheaded","Vision changes, ear fullness",Moderate,Sinus surgery complication
+CSF Leak,"Metallic taste, chronic headaches","Unusual taste in mouth, ongoing head pain","Hearing loss, nausea",Severe,Spinal fluid abnormality
+CSF Leak,"Neck pain, vision problems","Stiff neck, blurry vision","Frequent headaches, balance issues",Moderate,Increased intracranial pressure
+CSF Leak,"Ear drainage, nausea","Fluid leaking from ear, upset stomach","Light sensitivity, fatigue",Severe,Surgical side effects
+Chronic Cough,"Persistent dry cough, throat irritation","Cough lasting over 8 weeks, scratchy throat","Postnasal drip, hoarseness",Mild,Allergic rhinitis
+Chronic Cough,"Cough with mucus, chest tightness","Frequent coughing with phlegm, chest discomfort","Wheezing, shortness of breath",Moderate,Asthma
+Chronic Cough,"Nighttime cough, acid reflux","Cough worsening at night, burning sensation in throat","Hoarseness, bad breath",Severe,Gastroesophageal reflux disease (GERD)
+Otosclerosis,"Gradual hearing loss, tinnitus","Progressive hearing difficulty, ringing in ears","Balance issues, dizziness",Moderate,Genetic factors
+Otosclerosis,Difficulty hearing low-pitched sounds,Trouble distinguishing lower frequency noises,"Mild ear pain, ear fullness",Mild,Bone overgrowth in middle ear
+Tracheitis,"Cough, difficulty breathing","Persistent dry cough, shortness of breath","Fever, hoarseness",Moderate,Bacterial infection
+Tracheitis,"Stridor, chest pain","Noisy breathing, pain in chest while inhaling","Mucus buildup, fatigue",Severe,Complication of respiratory infection
+Turbinates Hypertrophy,"Nasal congestion, breathing issues","Chronic blocked nose, difficulty inhaling","Postnasal drip, headaches",Moderate,"Allergies, chronic inflammation"
+Turbinates Hypertrophy,"Snoring, dry mouth","Loud snoring at night, waking up with dry mouth","Sleep apnea, nasal dryness",Mild,Environmental irritants
+Nasal Fracture,"Nose pain, swelling","Bruising around nose, facial pain","Difficulty breathing, nosebleed",Moderate,"Trauma, sports injuries"
+Nasal Fracture,"Crooked nose, tenderness","Visible deformity, tenderness to touch","Blocked nasal passages, headache",Severe,"Accidents, fights"
+Zenker's Diverticulum,"Difficulty swallowing, regurgitation","Food getting stuck in throat, bringing food back up","Coughing, bad breath",Severe,Weak pharyngeal muscles
+Zenker's Diverticulum,"Hoarseness, weight loss","Voice changes, unexplained weight reduction","Chest pain, aspiration pneumonia",Moderate,Esophageal outpouching
+Dysphonia,"Hoarseness, voice fatigue","Weak or breathy voice, strain while speaking","Throat irritation, dry cough",Moderate,Vocal cord nodules
+Dysphonia,"Loss of voice, vocal strain",Complete or partial loss of voice,"Chronic throat clearing, discomfort",Severe,Laryngeal nerve paralysis
+Subglottic Stenosis,"Noisy breathing, voice changes","Wheezing sounds, difficulty speaking","Frequent respiratory infections, shortness of breath",Moderate,Congenital abnormality
+Subglottic Stenosis,"Chronic cough, airway obstruction","Persistent coughing, difficulty inhaling","Recurrent pneumonia, fatigue",Severe,Scar tissue formation
+Uvulitis,"Swollen uvula, throat irritation","Enlarged uvula, scratchy throat","Fever, difficulty swallowing",Moderate,Bacterial or viral infections
+Uvulitis,"Red throat, gagging sensation","Throat redness, feeling of something stuck","Coughing, voice changes",Mild,Allergic reactions
+Vocal Cord Nodules and Polyps,"Hoarseness, throat pain","Rough or strained voice, discomfort while speaking","Dry cough, voice fatigue",Moderate,Excessive vocal strain
+Vocal Cord Nodules and Polyps,"Breathy voice, pitch breaks","Difficulty controlling pitch, whispery voice","Throat irritation, swallowing issues",Severe,Overuse of vocal cords
+Wegener's Granulomatosis,"Sinus congestion, cough","Chronic nasal inflammation, dry cough","Joint pain, skin ulcers",Severe,Autoimmune vasculitis
+Wegener's Granulomatosis,"Nosebleeds, ear infections","Frequent nasal bleeding, recurring ear pain","Fever, fatigue",Moderate,Inflammation of small blood vessels
+Throat Cancer,"Persistent sore throat, voice changes","Ongoing throat pain, hoarseness","Difficulty swallowing, ear pain",Severe,"Smoking, HPV infection"
+Throat Cancer,"Lump in throat, unexplained weight loss","Feeling of obstruction in throat, loss of appetite","Coughing up blood, fatigue",Severe,"Alcohol use, genetic factors"
+Usher Syndrome,"Hearing loss, vision problems","Progressive hearing impairment, night blindness","Balance difficulties, dizziness",Severe,Genetic mutation
+Usher Syndrome,"Tinnitus, tunnel vision","Constant ringing in ears, narrowing of visual field","Frequent falls, difficulty walking in dim light",Moderate,Inherited disorder
+Vocal Cord Dysfunction,"Shortness of breath, noisy breathing","Difficulty inhaling, wheezing","Coughing, throat tightness",Moderate,"Stress, irritants"
+Vocal Cord Dysfunction,"Voice changes, throat clearing","Frequent hoarseness, feeling of throat closing","Fatigue, dizziness",Severe,Respiratory triggers
+Conductive Hearing Loss,"Muffled hearing, ear fullness","Difficulty hearing clearly, sensation of plugged ears","Dizziness, ear ringing",Moderate,Fluid buildup in middle ear
+Conductive Hearing Loss,"Hearing loss after infection, ear pressure","Decreased hearing post-ear infection, sensation of pressure","Mild pain, balance issues",Mild,Chronic ear infections
+Conductive Hearing Loss,"Earwax blockage, reduced sound perception","Loss of hearing clarity, earwax buildup","Tinnitus, mild discomfort",Mild,Excessive earwax
+Barrett's Esophagus,"Heartburn, acid reflux","Burning sensation in chest, regurgitation of food","Chronic cough, difficulty swallowing",Moderate,GERD (Gastroesophageal Reflux Disease)
+Barrett's Esophagus,"Sore throat, hoarseness","Persistent throat discomfort, voice changes","Chest pain, nausea",Severe,Chronic acid exposure
+Parotitis,"Swollen salivary glands, dry mouth","Painful swelling near jaw, reduced saliva","Fever, trouble eating",Moderate,"Viral infections (e.g., mumps)"
+Parotitis,"Facial pain, pus drainage","Pain in cheek area, yellowish discharge","Bad taste, sore throat",Severe,Bacterial infection
+Hearing Loss,"Difficulty hearing, muffled speech",Trouble understanding conversations,"Tinnitus, dizziness",Moderate,"Aging, noise exposure"
+Hearing Loss,"Sudden hearing loss, ear pain","Abrupt loss of hearing, discomfort","Ear fullness, ringing",Severe,Viral infections
+Epiglottitis,"Severe sore throat, difficulty breathing","Painful swallowing, shortness of breath","Fever, drooling",Severe,"Bacterial infection (e.g., Hib)"
+Epiglottitis,"Muffled voice, high fever","Hoarse voice, rapid breathing","Neck swelling, inability to swallow",Severe,Upper respiratory infections
+Epistaxis (Nosebleed),"Nasal bleeding, dry nose","Frequent nosebleeds, dry nasal passages","Dizziness, headaches",Mild,"Dry climate, nose picking"
+Epistaxis (Nosebleed),"Heavy nasal bleeding, difficulty stopping",Prolonged bleeding from one or both nostrils,"Fatigue, facial pressure",Moderate,Blood clotting disorders
+Hyperacusis,"Sound sensitivity, ear discomfort",Extreme sensitivity to normal sounds,"Ear pain, anxiety",Moderate,"Head trauma, migraines"
+Hyperacusis,"Tinnitus, loud noise discomfort","Ringing in ears, pain from normal sounds","Hearing fatigue, dizziness",Severe,Inner ear damage
+Laryngitis,"Loss of voice, sore throat","Unable to speak clearly, throat irritation","Dry cough, fever",Mild,Viral infections
+Laryngitis,"Hoarseness, vocal strain","Strained voice, painful throat","Fatigue, throat dryness",Moderate,Overuse of voice
+Chronic Sinusitis,"Facial pain, nasal congestion","Constant pressure in face, blocked nose","Cough, bad breath",Moderate,Bacterial sinus infections
+Chronic Sinusitis,"Thick nasal discharge, headaches","Yellow or green nasal mucus, severe headaches","Ear pain, fatigue",Severe,Deviated septum
+Chronic Sinusitis,"Postnasal drip, difficulty breathing","Mucus dripping down throat, labored breathing","Sinus pressure, ear fullness",Moderate,Untreated acute sinusitis
+Cleft Lip and Palate,"Difficulty feeding, nasal regurgitation","Problems sucking/swallowing, milk coming from nose","Frequent ear infections, nasal voice",Severe,Genetic mutations
+Cleft Lip and Palate,"Speech difficulties, nasal congestion","Muffled or nasal-sounding speech, blocked nose","Hearing loss, dental issues",Moderate,Environmental factors during pregnancy
+Cleft Lip and Palate,"Abnormal facial development, breathing difficulties","Visible split in lip or palate, trouble breathing","Sinus infections, malnutrition",Severe,Folic acid deficiency during pregnancy
+Head and Neck Cancer,"Persistent sore throat, difficulty swallowing","Ongoing throat pain, trouble eating","Ear pain, weight loss",Severe,Tobacco and alcohol use
+Head and Neck Cancer,"Lump in neck, voice changes","Swollen lymph nodes, hoarse voice","Unexplained bleeding, bad breath",Severe,Human papillomavirus (HPV)
+Zygomatic Fracture,"Facial swelling, cheekbone pain","Bruising around the cheek, tenderness","Vision problems, jaw misalignment",Severe,"Facial trauma, sports injuries"
+Zygomatic Fracture,"Difficulty opening mouth, nosebleed","Pain while chewing, bleeding from nose","Facial numbness, swelling",Moderate,"Falls, car accidents"
+Whiplash,"Neck pain, stiffness","Soreness in neck, reduced range of motion","Headache, dizziness",Moderate,"Sudden head movement (e.g., car accident)"
+Whiplash,"Shoulder pain, fatigue","Pain radiating from neck to shoulders, tiredness","Blurred vision, memory issues",Severe,Rear-end collisions
+Otitis Externa (Swimmer's Ear),"Ear pain, itching","Severe ear discomfort, scratching sensation","Redness, fluid drainage",Moderate,"Water exposure, bacterial infection"
+Otitis Externa (Swimmer's Ear),"Hearing loss, swelling","Decreased hearing, swollen outer ear","Tinnitus, jaw pain",Mild,"Frequent swimming, ear trauma"
+Pharyngitis,"Sore throat, red tonsils","Painful swallowing, inflamed throat","Fever, headache",Moderate,Bacterial (strep) or viral infection
+Pharyngitis,"Hoarseness, swollen lymph nodes","Voice changes, tender neck glands","Cough, fatigue",Mild,"Cold, flu"
+Chronic Rhinitis,"Runny nose, sneezing","Constant nasal discharge, frequent sneezing","Watery eyes, nasal congestion",Mild,Dust or pollen allergies
+Chronic Rhinitis,"Blocked nose, postnasal drip","Difficulty breathing through nose, mucus in throat","Facial pressure, headaches",Moderate,Nasal polyps
+Chronic Rhinitis,"Persistent nasal congestion, reduced smell","Long-term stuffy nose, difficulty detecting odors","Sneezing, throat irritation",Severe,"Non-allergic triggers (e.g., smoke, strong odors)"
+Laryngomalacia,"Noisy breathing, difficulty feeding","High-pitched breathing sounds, feeding struggles","Stridor, choking",Severe,Congenital abnormality
+Laryngomalacia,"Breathing problems, reflux symptoms","Labored breathing, acid reflux","Cyanosis, weight loss",Moderate,Weak airway muscles
+Laryngopharyngeal Reflux (LPR),"Throat clearing, cough","Frequent clearing of throat, dry cough","Hoarseness, sore throat",Moderate,Acid reflux
+Laryngopharyngeal Reflux (LPR),"Postnasal drip, voice changes","Mucus buildup in throat, hoarse voice","Globus sensation, difficulty swallowing",Mild,Dietary triggers
+Smell and Taste Disorders,"Loss of smell, taste alteration","Reduced ability to smell, changes in food flavors","Dry mouth, nasal congestion",Moderate,Post-viral syndrome
+Smell and Taste Disorders,"Metallic taste, food aversion","Distorted taste, dislike of certain foods","Headaches, dizziness",Severe,Neurological conditions
+Ageusia,"Loss of taste, dry mouth","Inability to taste sweet, salty, bitter, or sour flavors","Loss of appetite, metallic taste",Moderate,"Viral infections (e.g., COVID-19)"
+Ageusia,"Taste distortion, numb tongue","Reduced taste perception, tongue feels numb","Burning mouth, lack of saliva",Mild,Medication side effects
+Cholesteatoma,"Ear discharge, hearing loss","Persistent ear drainage, difficulty hearing","Dizziness, ear fullness",Moderate,Chronic middle ear infections
+Cholesteatoma,"Ear pain, foul-smelling discharge","Severe earache, bad-smelling drainage","Tinnitus, vertigo",Severe,Eustachian tube dysfunction
+Cholesteatoma,"Recurring ear infections, hearing impairment","Frequent ear infections, gradual hearing loss","Facial weakness, headaches",Moderate,Congenital malformation
+Vasomotor Rhinitis,"Runny nose, nasal congestion","Persistent clear nasal discharge, blocked nose","Postnasal drip, sneezing",Moderate,Irritants like perfumes or smoke
+Vasomotor Rhinitis,"Watery eyes, nasal itching","Excessive tearing, itching in nose","Headache, dizziness",Mild,Non-allergic triggers
+Nasal Polyps,"Nasal congestion, runny nose","Stuffy nose, persistent drainage","Facial pressure, loss of smell",Moderate,Chronic sinus inflammation
+Nasal Polyps,"Postnasal drip, headache","Constant mucus dripping in throat, headache","Sneezing, mild fever",Mild,"Allergies, asthma"
+Vestibular Neuritis,"Vertigo, dizziness","Sudden spinning sensation, trouble standing","Nausea, balance issues",Severe,Viral infection affecting inner ear
+Vestibular Neuritis,"Hearing loss, tinnitus","Muffled hearing, ringing in ears","Blurred vision, motion sickness",Moderate,Inflammation of vestibular nerve
+Perforated Eardrum,"Ear pain, hearing loss","Sudden earache followed by relief, reduced hearing","Tinnitus, dizziness",Moderate,"Ear infections, loud noises"
+Perforated Eardrum,"Fluid leakage, ear ringing","Clear fluid or pus from ear, buzzing sounds","Vertigo, nausea",Severe,"Head trauma, barotrauma"
+Snoring,"Loud breathing at night, dry throat","Frequent loud snoring, waking up with dry mouth","Daytime drowsiness, headaches",Mild,"Obesity, nasal obstruction"
+Snoring,"Nasal congestion, mouth breathing","Difficulty breathing through nose, sleeping with mouth open","Restless sleep, frequent awakenings",Moderate,Chronic allergies
+Tonsil Stones (Tonsilloliths),"Bad breath, throat discomfort","Persistent foul breath, irritation in throat","White debris in tonsils, difficulty swallowing",Mild,Bacterial buildup
+Tonsil Stones (Tonsilloliths),"Sensation of something stuck, mild pain","Foreign body sensation in throat, occasional pain","Ear discomfort, coughing",Moderate,Chronic tonsillitis
+Labyrinthitis,"Vertigo, dizziness","Spinning sensation, balance issues","Nausea, hearing loss",Moderate,Viral infections
+Labyrinthitis,"Hearing impairment, ear pain","Partial hearing loss, discomfort in ear","Tinnitus, headaches",Severe,Bacterial infections
+Deviated Nasal Septum,"Nasal congestion, breathing difficulty","Blocked nose, trouble breathing through one nostril","Frequent nosebleeds, snoring",Moderate,Congenital or trauma-related
+Deviated Nasal Septum,"Sinus infections, facial pain","Recurring sinusitis, pressure in face","Postnasal drip, nasal dryness",Mild,Birth defect or injury
+Mastoiditis,"Ear pain, swelling","Severe pain behind ear, swelling","Fever, drainage from ear",Severe,Untreated ear infections
+Mastoiditis,"Hearing loss, ear redness","Reduced hearing, inflamed skin around ear","Headaches, dizziness",Moderate,Bacterial middle ear infection
+Earwax Impaction,"Hearing loss, ear fullness","Difficulty hearing, sensation of plugged ear","Tinnitus, mild dizziness",Mild,Excessive earwax production
+Earwax Impaction,"Ear discomfort, itching","Persistent itching in ear, minor pain","Cough, balance issues",Moderate,Improper ear cleaning
+Nasal Vestibulitis,"Redness, nasal swelling","Painful nose swelling, irritation","Crusting, mild bleeding",Moderate,Bacterial infection
+Nasal Vestibulitis,"Nasal tenderness, pimples",Painful bumps inside nostrils,"Dryness, inflammation",Mild,Frequent nose picking
+Nasal Septal Hematoma,"Nasal pain, blocked nose","Tenderness in nose, breathing difficulty","Facial swelling, headache",Moderate,Nasal injury
+Nasal Septal Hematoma,"Bruising, nasal congestion","Swelling inside nose, blocked airflow","Fever, pressure behind eyes",Severe,"Trauma, surgery complications"
+Sinusitis,"Facial pain, sinus pressure","Headache, swelling around sinuses","Postnasal drip, congestion",Moderate,Bacterial infections
+Sinusitis,"Runny nose, bad breath","Persistent nasal discharge, foul breath","Fatigue, ear pain",Severe,Viral infections
+Salivary Gland Disorders,"Dry mouth, swelling","Decreased saliva, swollen salivary glands","Pain while eating, jaw discomfort",Moderate,Salivary gland stones
+Salivary Gland Disorders,"Pus drainage, fever","White or yellow discharge from gland, high fever","Facial swelling, difficulty opening mouth",Severe,Bacterial infections
+Obstructive Sleep Apnea,"Loud snoring, daytime fatigue","Gasping for air during sleep, tiredness","Morning headaches, dry mouth",Moderate,"Obesity, narrowed airway"
+Obstructive Sleep Apnea,"Pauses in breathing, restless sleep","Interrupted breathing at night, frequent awakenings","Memory problems, irritability",Severe,"Enlarged tonsils, aging"
+Ear Infection (Otitis Media),"Ear pain, fluid drainage","Throbbing earache, discharge from ear","Fever, hearing loss",Moderate,Bacterial or viral infection
+Ear Infection (Otitis Media),"Fullness in ear, reduced hearing","Pressure sensation in ear, muffled sounds","Dizziness, fever",Severe,Eustachian tube dysfunction
+Recurrent Respiratory Papillomatosis,"Hoarseness, difficulty breathing","Chronic hoarseness, shortness of breath","Coughing, voice changes",Moderate,HPV infection
+Recurrent Respiratory Papillomatosis,"Wheezing, voice fatigue","Noisy breathing, vocal strain","Frequent throat clearing, swallowing difficulty",Severe,Vertical HPV transmission
+Rhinosinusitis,"Sinus pressure, nasal congestion","Headache, blocked nose","Cough, fatigue",Moderate,Bacterial or viral infection
+Rhinosinusitis,"Postnasal drip, facial pain","Thick mucus dripping into throat, sinus pain","Ear pain, bad breath",Severe,"Allergies, structural nasal issues"
+Spasmodic Dysphonia,"Voice breaks, strained voice","Uncontrolled voice interruptions, vocal strain","Throat discomfort, effortful speech",Moderate,Neurological disorder
+Spasmodic Dysphonia,"Breathy voice, difficulty speaking","Weak, whispery voice, struggling to talk","Tremors, vocal fatigue",Severe,Spasms in laryngeal muscles
+Dizziness,"Lightheadedness, unsteadiness","Feeling faint, loss of balance","Blurred vision, nausea",Moderate,Low blood pressure
+Dizziness,"Vertigo, spinning sensation",Feeling like the room is moving,"Sweating, ringing in ears",Severe,Inner ear disorders
+Globus Sensation,"Lump in throat, difficulty swallowing",Feeling of a persistent lump in throat,"Tightness, throat clearing",Mild,Stress and anxiety
+Globus Sensation,"Throat tightness, choking sensation",Feeling of throat constriction,"Dry mouth, hoarseness",Moderate,Gastroesophageal reflux disease (GERD)
+Oral Cancer,"Mouth sores, difficulty chewing","Non-healing ulcers, pain while eating","Lump in mouth, voice changes",Severe,"Tobacco, alcohol use"
+Oral Cancer,"Bleeding gums, red/white patches","Unexplained bleeding, discoloration inside mouth","Weight loss, jaw stiffness",Moderate,HPV infection
+Neck Masses,"Swollen lymph nodes, lump in neck","Painless swelling in neck, firm lump","Fever, difficulty swallowing",Moderate,"Infections, tumors"
+Neck Masses,"Tender lump, trouble moving neck","Painful mass in neck, stiffness","Night sweats, weight loss",Severe,"Cancer, cysts"
+Ranula,"Soft swelling under tongue, difficulty swallowing","Painless cyst under tongue, trouble eating","Saliva accumulation, speech issues",Moderate,Blocked salivary gland
+Ranula,"Mouth discomfort, recurrent cysts","Mild pain in mouth, frequent fluid-filled cysts","Facial swelling, tongue movement difficulty",Severe,"Trauma, duct obstruction"
+Tinnitus,"Ringing in ears, hearing loss",Constant buzzing or ringing sound,"Dizziness, sensitivity to sound",Moderate,"Loud noise exposure, ear infections"
+Tinnitus,"Pulsating noise, ear fullness",Hearing a rhythmic sound matching heartbeat,"Headaches, vertigo",Severe,Circulatory disorders
+Tonsillitis,"Sore throat, swollen tonsils","Throat pain, red and inflamed tonsils","Fever, ear pain",Moderate,Viral or bacterial infection
+Tonsillitis,"White patches, difficulty swallowing","Visible white spots on tonsils, pain while eating","Bad breath, swollen glands",Severe,Streptococcus bacteria
+Sore Throat,"Pain while swallowing, red throat","Throat discomfort, inflamed tonsils","Cough, mild fever",Mild,Viral infections
+Sore Throat,"Swollen glands, white patches","Tender lymph nodes, white spots on tonsils","Severe pain, earache",Severe,Bacterial infections (strep)
+Vocal Cord Paralysis,"Hoarseness, breathy voice","Weak voice, inability to speak loudly","Frequent throat clearing, choking on liquids",Moderate,"Nerve damage, stroke"
+Vocal Cord Paralysis,"Shortness of breath, coughing","Difficulty breathing, persistent cough","Voice fatigue, throat discomfort",Severe,Surgical complications
+Oral Candidiasis (Thrush),"White patches on tongue, mouth pain","Creamy lesions in mouth, burning sensation","Difficulty swallowing, bad taste",Moderate,Weak immune system
+Oral Candidiasis (Thrush),"Dry mouth, cracked corners of lips","Cottony feeling in mouth, pain while eating","Redness, loss of taste",Mild,"Diabetes, antibiotic use"
+Dysphagia,"Difficulty swallowing, choking",Trouble swallowing solid or liquid foods,"Weight loss, throat discomfort",Moderate,Neurological conditions
+Dysphagia,"Painful swallowing, food sticking",Feeling like food is stuck in the throat,"Coughing, drooling",Severe,Esophageal strictures
+Laryngeal Cancer,"Hoarseness, persistent cough","Chronic voice changes, ongoing cough","Difficulty swallowing, weight loss",Severe,"Smoking, alcohol use"
+Laryngeal Cancer,"Lump in throat, shortness of breath","Sensation of lump, trouble breathing","Ear pain, throat pain",Moderate,HPV infection
+Velopharyngeal Insufficiency,"Nasal speech, air escape","Hypernasal voice, air leaking through nose while talking","Difficulty swallowing, speech delay",Moderate,Cleft palate
+Velopharyngeal Insufficiency,"Hoarseness, choking on liquids","Weak voice, liquid coming out of nose while drinking","Frequent ear infections, nasal congestion",Severe,Neuromuscular disorders
+Acute Otitis Media,ear pain; fever; hearing loss; irritability,ear pain; fever,headache; loss of appetite,Moderate,"bacterial infection (e.g., Streptococcus pneumoniae) after a cold"
+Acute Otitis Media,ear pain; fever; hearing loss; irritability,fever,loss of appetite; ear discharge,Moderate,viral upper respiratory infection
+Acute Otitis Media,ear pain; fever; hearing loss; irritability,irritability; ear pain,,Severe,"bacterial infection (e.g., Streptococcus pneumoniae) after a cold"
+Acute Otitis Media,ear pain; fever; hearing loss; irritability,hearing loss,ear discharge; loss of appetite,Severe,"bacterial infection (e.g., Streptococcus pneumoniae) after a cold"
+Acute Otitis Media,ear pain; fever; hearing loss; irritability,fever; hearing loss,ear discharge; headache,Severe,viral upper respiratory infection
+Acute Otitis Media,ear pain; fever; hearing loss; irritability,ear pain; hearing loss,,Mild,viral upper respiratory infection
+Acute Otitis Media,ear pain; fever; hearing loss; irritability,fever; irritability,,Severe,"bacterial infection (e.g., Streptococcus pneumoniae) after a cold"
+Acute Otitis Media,ear pain; fever; hearing loss; irritability,ear pain,loss of appetite; headache,Moderate,"bacterial infection (e.g., Streptococcus pneumoniae) after a cold"
+Acute Otitis Media,ear pain; fever; hearing loss; irritability,hearing loss,ear discharge; headache,Severe,viral upper respiratory infection
+Acute Otitis Media,ear pain; fever; hearing loss; irritability,hearing loss; irritability,ear discharge,Mild,"bacterial infection (e.g., Streptococcus pneumoniae) after a cold"
+Acute Otitis Media,ear pain; fever; hearing loss; irritability,fever,,Severe,"bacterial infection (e.g., Streptococcus pneumoniae) after a cold"
+Acute Otitis Media,ear pain; fever; hearing loss; irritability,hearing loss,ear discharge; loss of appetite,Moderate,viral upper respiratory infection
+Acute Otitis Media,ear pain; fever; hearing loss; irritability,fever,loss of appetite,Severe,viral upper respiratory infection
+Acute Otitis Media,ear pain; fever; hearing loss; irritability,ear pain; hearing loss,ear discharge,Severe,viral upper respiratory infection
+Acute Otitis Media,ear pain; fever; hearing loss; irritability,hearing loss; fever,headache; ear discharge,Severe,"bacterial infection (e.g., Streptococcus pneumoniae) after a cold"
+Acute Otitis Media,ear pain; fever; hearing loss; irritability,irritability,,Moderate,viral upper respiratory infection
+Acute Otitis Media,ear pain; fever; hearing loss; irritability,hearing loss,ear discharge; loss of appetite,Severe,viral upper respiratory infection
+Acute Otitis Media,ear pain; fever; hearing loss; irritability,fever,headache; loss of appetite,Moderate,"bacterial infection (e.g., Streptococcus pneumoniae) after a cold"
+Acute Otitis Media,ear pain; fever; hearing loss; irritability,ear pain; fever,,Mild,viral upper respiratory infection
+Acute Otitis Media,ear pain; fever; hearing loss; irritability,hearing loss; ear pain,loss of appetite; ear discharge,Severe,"bacterial infection (e.g., Streptococcus pneumoniae) after a cold"
+Otitis Media with Effusion,hearing loss; ear fullness; balance issues,hearing loss; ear fullness,,Mild,fluid buildup post ear infection
+Otitis Media with Effusion,hearing loss; ear fullness; balance issues,balance issues; hearing loss,ear discomfort,Moderate,allergies leading to eustachian tube blockage
+Otitis Media with Effusion,hearing loss; ear fullness; balance issues,hearing loss,,Mild,fluid buildup post ear infection
+Otitis Media with Effusion,hearing loss; ear fullness; balance issues,ear fullness,,Mild,allergies leading to eustachian tube blockage
+Otitis Media with Effusion,hearing loss; ear fullness; balance issues,ear fullness; balance issues,,Moderate,fluid buildup post ear infection
+Otitis Media with Effusion,hearing loss; ear fullness; balance issues,hearing loss; balance issues,ear discomfort,Mild,fluid buildup post ear infection
+Otitis Media with Effusion,hearing loss; ear fullness; balance issues,ear fullness; hearing loss,ear discomfort,Moderate,allergies leading to eustachian tube blockage
+Otitis Media with Effusion,hearing loss; ear fullness; balance issues,hearing loss,,Mild,allergies leading to eustachian tube blockage
+Otitis Media with Effusion,hearing loss; ear fullness; balance issues,balance issues,ear discomfort,Moderate,fluid buildup post ear infection
+Otitis Media with Effusion,hearing loss; ear fullness; balance issues,ear fullness; hearing loss,,Moderate,allergies leading to eustachian tube blockage
+Otitis Media with Effusion,hearing loss; ear fullness; balance issues,hearing loss; ear fullness,ear discomfort,Moderate,fluid buildup post ear infection
+Otitis Media with Effusion,hearing loss; ear fullness; balance issues,ear fullness,,Mild,fluid buildup post ear infection
+Otitis Media with Effusion,hearing loss; ear fullness; balance issues,hearing loss,,Moderate,allergies leading to eustachian tube blockage
+Otitis Media with Effusion,hearing loss; ear fullness; balance issues,ear fullness; balance issues,,Mild,fluid buildup post ear infection
+Otitis Media with Effusion,hearing loss; ear fullness; balance issues,hearing loss; ear fullness,,Moderate,fluid buildup post ear infection
+Otitis Media with Effusion,hearing loss; ear fullness; balance issues,ear fullness; balance issues,,Moderate,allergies leading to eustachian tube blockage
+Otitis Media with Effusion,hearing loss; ear fullness; balance issues,hearing loss; balance issues,,Moderate,fluid buildup post ear infection
+Chronic Otitis Media,persistent ear discharge; hearing loss,persistent ear discharge,intermittent ear pain,Moderate,"chronic bacterial infection (e.g., Pseudomonas)"
+Chronic Otitis Media,persistent ear discharge; hearing loss,persistent ear discharge; hearing loss,intermittent ear pain,Moderate,repeated infections with perforation
+Chronic Otitis Media,persistent ear discharge; hearing loss,persistent ear discharge,ear fullness; intermittent ear pain,Moderate,repeated infections with perforation
+Chronic Otitis Media,persistent ear discharge; hearing loss,persistent ear discharge; hearing loss,ear fullness,Moderate,"chronic bacterial infection (e.g., Pseudomonas)"
+Chronic Otitis Media,persistent ear discharge; hearing loss,hearing loss,intermittent ear pain,Moderate,repeated infections with perforation
+Chronic Otitis Media,persistent ear discharge; hearing loss,persistent ear discharge,ear fullness,Moderate,"chronic bacterial infection (e.g., Pseudomonas)"
+Chronic Otitis Media,persistent ear discharge; hearing loss,hearing loss,intermittent ear pain,Moderate,"chronic bacterial infection (e.g., Pseudomonas)"
+Chronic Otitis Media,persistent ear discharge; hearing loss,persistent ear discharge; hearing loss,,Moderate,repeated infections with perforation
+Chronic Otitis Media,persistent ear discharge; hearing loss,persistent ear discharge,intermittent ear pain,Moderate,repeated infections with perforation
+Chronic Otitis Media,persistent ear discharge; hearing loss,hearing loss,ear fullness,Moderate,repeated infections with perforation
+Chronic Otitis Media,persistent ear discharge; hearing loss,persistent ear discharge; hearing loss,,Moderate,"chronic bacterial infection (e.g., Pseudomonas)"
+Chronic Otitis Media,persistent ear discharge; hearing loss,hearing loss,ear fullness; intermittent ear pain,Moderate,repeated infections with perforation
+Chronic Otitis Media,persistent ear discharge; hearing loss,persistent ear discharge,,Moderate,repeated infections with perforation
+Chronic Otitis Media,persistent ear discharge; hearing loss,persistent ear discharge; hearing loss,intermittent ear pain,Moderate,"chronic bacterial infection (e.g., Pseudomonas)"
+Chronic Otitis Media,persistent ear discharge; hearing loss,persistent ear discharge; hearing loss,ear fullness,Moderate,repeated infections with perforation
+Otitis Externa (Swimmer's Ear),ear pain (outer ear); ear canal swelling; itchiness,ear pain; ear canal swelling,ear discharge; hearing loss,Moderate,bacterial infection from water exposure
+Otitis Externa (Swimmer's Ear),ear pain (outer ear); ear canal swelling; itchiness,ear canal swelling,,Mild,bacterial infection from water exposure
+Otitis Externa (Swimmer's Ear),ear pain (outer ear); ear canal swelling; itchiness,ear pain; itchiness,ear discharge,Moderate,fungal infection in ear canal
+Otitis Externa (Swimmer's Ear),ear pain (outer ear); ear canal swelling; itchiness,ear canal swelling; itchiness,,Mild,bacterial infection from water exposure
+Otitis Externa (Swimmer's Ear),ear pain (outer ear); ear canal swelling; itchiness,ear pain; ear canal swelling,hearing loss,Severe,bacterial infection from water exposure
+Otitis Externa (Swimmer's Ear),ear pain (outer ear); ear canal swelling; itchiness,itchiness; ear canal swelling,,Mild,fungal infection in ear canal
+Otitis Externa (Swimmer's Ear),ear pain (outer ear); ear canal swelling; itchiness,ear pain,ear discharge,Moderate,bacterial infection from water exposure
+Otitis Externa (Swimmer's Ear),ear pain (outer ear); ear canal swelling; itchiness,ear canal swelling; itchiness,ear discharge; hearing loss,Severe,fungal infection in ear canal
+Otitis Externa (Swimmer's Ear),ear pain (outer ear); ear canal swelling; itchiness,ear pain; itchiness,,Mild,bacterial infection from water exposure
+Otitis Externa (Swimmer's Ear),ear pain (outer ear); ear canal swelling; itchiness,ear pain; ear canal swelling,,Moderate,bacterial infection from water exposure
+Otitis Externa (Swimmer's Ear),ear pain (outer ear); ear canal swelling; itchiness,ear canal swelling; itchiness,ear discharge,Moderate,fungal infection in ear canal
+Otitis Externa (Swimmer's Ear),ear pain (outer ear); ear canal swelling; itchiness,ear pain,hearing loss,Moderate,bacterial infection from water exposure
+Otitis Externa (Swimmer's Ear),ear pain (outer ear); ear canal swelling; itchiness,ear pain; ear canal swelling,ear discharge,Severe,bacterial infection from water exposure
+Otitis Externa (Swimmer's Ear),ear pain (outer ear); ear canal swelling; itchiness,ear canal swelling,,Mild,fungal infection in ear canal
+Otitis Externa (Swimmer's Ear),ear pain (outer ear); ear canal swelling; itchiness,ear canal swelling; itchiness,ear discharge,Moderate,bacterial infection from water exposure
+Otitis Externa (Swimmer's Ear),ear pain (outer ear); ear canal swelling; itchiness,ear pain; itchiness,hearing loss,Moderate,fungal infection in ear canal
+Otitis Externa (Swimmer's Ear),ear pain (outer ear); ear canal swelling; itchiness,ear pain; ear canal swelling,ear discharge; hearing loss,Severe,bacterial infection from water exposure
+Otitis Externa (Swimmer's Ear),ear pain (outer ear); ear canal swelling; itchiness,ear pain; itchiness,,Mild,fungal infection in ear canal
+Eustachian Tube Dysfunction,ear fullness; muffled hearing; ear popping,ear fullness,,Mild,allergies causing tube swelling
+Eustachian Tube Dysfunction,ear fullness; muffled hearing; ear popping,ear popping; ear fullness,mild ear pain,Mild,rapid altitude change (airplane)
+Eustachian Tube Dysfunction,ear fullness; muffled hearing; ear popping,ear fullness; muffled hearing,,Moderate,allergies causing tube swelling
+Eustachian Tube Dysfunction,ear fullness; muffled hearing; ear popping,ear fullness; ear popping,,Mild,rapid altitude change (airplane)
+Eustachian Tube Dysfunction,ear fullness; muffled hearing; ear popping,ear fullness; muffled hearing,tinnitus,Mild,allergies causing tube swelling
+Eustachian Tube Dysfunction,ear fullness; muffled hearing; ear popping,ear popping,,Mild,rapid altitude change (airplane)
+Eustachian Tube Dysfunction,ear fullness; muffled hearing; ear popping,ear fullness; ear popping,mild ear pain,Moderate,allergies causing tube swelling
+Eustachian Tube Dysfunction,ear fullness; muffled hearing; ear popping,muffled hearing; ear fullness,,Moderate,rapid altitude change (airplane)
+Eustachian Tube Dysfunction,ear fullness; muffled hearing; ear popping,ear popping; muffled hearing,,Mild,allergies causing tube swelling
+Eustachian Tube Dysfunction,ear fullness; muffled hearing; ear popping,ear fullness; ear popping,tinnitus,Moderate,rapid altitude change (airplane)
+Eustachian Tube Dysfunction,ear fullness; muffled hearing; ear popping,muffled hearing; ear fullness,,Mild,allergies causing tube swelling
+Eustachian Tube Dysfunction,ear fullness; muffled hearing; ear popping,ear fullness; muffled hearing,,Moderate,rapid altitude change (airplane)
+Eustachian Tube Dysfunction,ear fullness; muffled hearing; ear popping,ear fullness; ear popping,,Moderate,rapid altitude change (airplane)
+Eustachian Tube Dysfunction,ear fullness; muffled hearing; ear popping,ear fullness; ear popping,tinnitus,Mild,allergies causing tube swelling
+Eustachian Tube Dysfunction,ear fullness; muffled hearing; ear popping,ear popping; muffled hearing,mild ear pain,Moderate,rapid altitude change (airplane)
+Tympanic Membrane Perforation,sudden ear pain; ear discharge; hearing loss,ear pain,,Moderate,ear infection complication
+Tympanic Membrane Perforation,sudden ear pain; ear discharge; hearing loss,hearing loss,tinnitus,Moderate,barotrauma (pressure change)
+Tympanic Membrane Perforation,sudden ear pain; ear discharge; hearing loss,ear pain; hearing loss,,Moderate,ear infection complication
+Tympanic Membrane Perforation,sudden ear pain; ear discharge; hearing loss,ear pain; hearing loss,tinnitus; dizziness,Moderate,barotrauma (pressure change)
+Tympanic Membrane Perforation,sudden ear pain; ear discharge; hearing loss,hearing loss,ear discharge; tinnitus,Moderate,ear infection complication
+Tympanic Membrane Perforation,sudden ear pain; ear discharge; hearing loss,ear pain,dizziness,Moderate,barotrauma (pressure change)
+Tympanic Membrane Perforation,sudden ear pain; ear discharge; hearing loss,ear pain; hearing loss,ear discharge,Moderate,ear infection complication
+Tympanic Membrane Perforation,sudden ear pain; ear discharge; hearing loss,ear pain; hearing loss,,Moderate,barotrauma (pressure change)
+Tympanic Membrane Perforation,sudden ear pain; ear discharge; hearing loss,hearing loss,tinnitus,Moderate,ear infection complication
+Tympanic Membrane Perforation,sudden ear pain; ear discharge; hearing loss,ear pain; hearing loss,ear discharge; tinnitus,Moderate,barotrauma (pressure change)
+Tympanic Membrane Perforation,sudden ear pain; ear discharge; hearing loss,ear pain; hearing loss,ear discharge; dizziness,Moderate,barotrauma (pressure change)
+Tympanic Membrane Perforation,sudden ear pain; ear discharge; hearing loss,ear pain; hearing loss,tinnitus,Moderate,ear infection complication
+Tympanic Membrane Perforation,sudden ear pain; ear discharge; hearing loss,ear pain; hearing loss,dizziness,Moderate,barotrauma (pressure change)
+Tympanic Membrane Perforation,sudden ear pain; ear discharge; hearing loss,ear pain,,Moderate,barotrauma (pressure change)
+Cholesteatoma,chronic foul ear discharge; hearing loss,chronic foul ear discharge,,Moderate,chronic ear infection leading to skin cyst
+Cholesteatoma,chronic foul ear discharge; hearing loss,chronic foul ear discharge; hearing loss,,Moderate,chronic ear infection leading to skin cyst
+Cholesteatoma,chronic foul ear discharge; hearing loss,hearing loss,fullness in ear,Moderate,eustachian tube dysfunction (congenital)
+Cholesteatoma,chronic foul ear discharge; hearing loss,chronic foul ear discharge,fullness in ear,Moderate,chronic ear infection leading to skin cyst
+Cholesteatoma,chronic foul ear discharge; hearing loss,chronic foul ear discharge; hearing loss,dizziness,Moderate,eustachian tube dysfunction (congenital)
+Cholesteatoma,chronic foul ear discharge; hearing loss,hearing loss,,Moderate,chronic ear infection leading to skin cyst
+Cholesteatoma,chronic foul ear discharge; hearing loss,chronic foul ear discharge,dizziness,Moderate,eustachian tube dysfunction (congenital)
+Cholesteatoma,chronic foul ear discharge; hearing loss,chronic foul ear discharge,fullness in ear,Moderate,eustachian tube dysfunction (congenital)
+Cholesteatoma,chronic foul ear discharge; hearing loss,chronic foul ear discharge; hearing loss,dizziness,Moderate,chronic ear infection leading to skin cyst
+Cholesteatoma,chronic foul ear discharge; hearing loss,chronic foul ear discharge; hearing loss,fullness in ear,Moderate,eustachian tube dysfunction (congenital)
+Cholesteatoma,chronic foul ear discharge; hearing loss,hearing loss,,Moderate,eustachian tube dysfunction (congenital)
+Cholesteatoma,chronic foul ear discharge; hearing loss,hearing loss,fullness in ear,Moderate,chronic ear infection leading to skin cyst
+Cholesteatoma,chronic foul ear discharge; hearing loss,chronic foul ear discharge,,Moderate,eustachian tube dysfunction (congenital)
+Cholesteatoma,chronic foul ear discharge; hearing loss,chronic foul ear discharge; hearing loss,fullness in ear,Moderate,chronic ear infection leading to skin cyst
+Cholesteatoma,chronic foul ear discharge; hearing loss,chronic foul ear discharge,dizziness,Moderate,chronic ear infection leading to skin cyst
+Mastoiditis,ear pain behind ear; fever; ear redness/swelling,ear pain behind ear; fever,protruding ear,Severe,untreated middle ear infection spread to mastoid
+Mastoiditis,ear pain behind ear; fever; ear redness/swelling,ear redness/swelling; ear pain behind ear,protruding ear; headache,Severe,untreated middle ear infection spread to mastoid
+Mastoiditis,ear pain behind ear; fever; ear redness/swelling,ear pain behind ear; fever,headache,Severe,untreated middle ear infection spread to mastoid
+Mastoiditis,ear pain behind ear; fever; ear redness/swelling,ear pain behind ear; fever,protruding ear; headache,Severe,untreated middle ear infection spread to mastoid
+Mastoiditis,ear pain behind ear; fever; ear redness/swelling,ear redness/swelling; fever,protruding ear,Severe,untreated middle ear infection spread to mastoid
+Mastoiditis,ear pain behind ear; fever; ear redness/swelling,ear redness/swelling; ear pain behind ear,protruding ear,Severe,untreated middle ear infection spread to mastoid
+Mastoiditis,ear pain behind ear; fever; ear redness/swelling,ear redness/swelling; fever,headache,Severe,untreated middle ear infection spread to mastoid
+Mastoiditis,ear pain behind ear; fever; ear redness/swelling,ear redness/swelling; ear pain behind ear,headache,Severe,untreated middle ear infection spread to mastoid
+Otosclerosis,gradual hearing loss; tinnitus,gradual hearing loss; tinnitus,,Moderate,abnormal bone growth in middle ear
+Otosclerosis,gradual hearing loss; tinnitus,gradual hearing loss,dizziness (rare),Moderate,genetic predisposition
+Otosclerosis,gradual hearing loss; tinnitus,gradual hearing loss; tinnitus,,Mild,genetic predisposition
+Otosclerosis,gradual hearing loss; tinnitus,tinnitus,,Mild,abnormal bone growth in middle ear
+Otosclerosis,gradual hearing loss; tinnitus,gradual hearing loss; tinnitus,,Moderate,genetic predisposition
+Otosclerosis,gradual hearing loss; tinnitus,gradual hearing loss,normal ear exam,Moderate,abnormal bone growth in middle ear
+Otosclerosis,gradual hearing loss; tinnitus,gradual hearing loss,dizziness (rare),Mild,genetic predisposition
+Otosclerosis,gradual hearing loss; tinnitus,tinnitus,,Moderate,abnormal bone growth in middle ear
+Otosclerosis,gradual hearing loss; tinnitus,gradual hearing loss,normal ear exam,Mild,abnormal bone growth in middle ear
+Otosclerosis,gradual hearing loss; tinnitus,gradual hearing loss,dizziness (rare),Moderate,abnormal bone growth in middle ear
+Otosclerosis,gradual hearing loss; tinnitus,tinnitus,,Mild,genetic predisposition
+Otosclerosis,gradual hearing loss; tinnitus,gradual hearing loss,normal ear exam,Moderate,genetic predisposition
+Otosclerosis,gradual hearing loss; tinnitus,gradual hearing loss; tinnitus,,Mild,abnormal bone growth in middle ear
+Ménière’s Disease,episodic vertigo; fluctuating hearing loss; tinnitus,episodic vertigo; fluctuating hearing loss,nausea/vomiting; ear fullness,Severe,idiopathic inner ear fluid buildup
+Ménière’s Disease,episodic vertigo; fluctuating hearing loss; tinnitus,fluctuating hearing loss; tinnitus,ear fullness,Moderate,idiopathic inner ear fluid buildup
+Ménière’s Disease,episodic vertigo; fluctuating hearing loss; tinnitus,episodic vertigo; tinnitus,ear fullness,Moderate,"possible triggers (stress, salt)"
+Ménière’s Disease,episodic vertigo; fluctuating hearing loss; tinnitus,fluctuating hearing loss; episodic vertigo,ear fullness; nausea/vomiting,Severe,"possible triggers (stress, salt)"
+Ménière’s Disease,episodic vertigo; fluctuating hearing loss; tinnitus,episodic vertigo; fluctuating hearing loss,ear fullness,Moderate,idiopathic inner ear fluid buildup
+Ménière’s Disease,episodic vertigo; fluctuating hearing loss; tinnitus,fluctuating hearing loss; tinnitus,nausea/vomiting,Moderate,"possible triggers (stress, salt)"
+Ménière’s Disease,episodic vertigo; fluctuating hearing loss; tinnitus,episodic vertigo; tinnitus,ear fullness,Moderate,idiopathic inner ear fluid buildup
+Ménière’s Disease,episodic vertigo; fluctuating hearing loss; tinnitus,fluctuating hearing loss; episodic vertigo,nausea/vomiting,Severe,idiopathic inner ear fluid buildup
+Ménière’s Disease,episodic vertigo; fluctuating hearing loss; tinnitus,episodic vertigo; fluctuating hearing loss,ear fullness; nausea/vomiting,Severe,"possible triggers (stress, salt)"
+Ménière’s Disease,episodic vertigo; fluctuating hearing loss; tinnitus,fluctuating hearing loss; tinnitus,,Moderate,idiopathic inner ear fluid buildup
+Ménière’s Disease,episodic vertigo; fluctuating hearing loss; tinnitus,episodic vertigo; fluctuating hearing loss,ear fullness,Moderate,"possible triggers (stress, salt)"
+Ménière’s Disease,episodic vertigo; fluctuating hearing loss; tinnitus,fluctuating hearing loss; tinnitus,ear fullness; nausea/vomiting,Moderate,idiopathic inner ear fluid buildup
+Ménière’s Disease,episodic vertigo; fluctuating hearing loss; tinnitus,episodic vertigo; tinnitus,nausea/vomiting,Moderate,"possible triggers (stress, salt)"
+Ménière’s Disease,episodic vertigo; fluctuating hearing loss; tinnitus,fluctuating hearing loss; episodic vertigo,ear fullness,Severe,idiopathic inner ear fluid buildup
+Ménière’s Disease,episodic vertigo; fluctuating hearing loss; tinnitus,episodic vertigo; fluctuating hearing loss,nausea/vomiting,Moderate,"possible triggers (stress, salt)"
+Ménière’s Disease,episodic vertigo; fluctuating hearing loss; tinnitus,episodic vertigo; fluctuating hearing loss,nausea/vomiting,Severe,"possible triggers (stress, salt)"
+Ménière’s Disease,episodic vertigo; fluctuating hearing loss; tinnitus,episodic vertigo; tinnitus,ear fullness; nausea/vomiting,Severe,idiopathic inner ear fluid buildup
+Ménière’s Disease,episodic vertigo; fluctuating hearing loss; tinnitus,fluctuating hearing loss; episodic vertigo,ear fullness,Moderate,"possible triggers (stress, salt)"
+Ménière’s Disease,episodic vertigo; fluctuating hearing loss; tinnitus,episodic vertigo; fluctuating hearing loss,ear fullness; nausea/vomiting,Severe,idiopathic inner ear fluid buildup
+Labyrinthitis,sudden severe vertigo; balance loss; nausea/vomiting,sudden severe vertigo,hearing loss; tinnitus,Severe,viral infection of inner ear
+Labyrinthitis,sudden severe vertigo; balance loss; nausea/vomiting,sudden severe vertigo; nausea/vomiting,hearing loss,Severe,bacterial infection spreading from middle ear
+Labyrinthitis,sudden severe vertigo; balance loss; nausea/vomiting,sudden severe vertigo; balance loss,tinnitus,Severe,viral infection of inner ear
+Labyrinthitis,sudden severe vertigo; balance loss; nausea/vomiting,nausea/vomiting; balance loss,hearing loss,Severe,viral infection of inner ear
+Labyrinthitis,sudden severe vertigo; balance loss; nausea/vomiting,sudden severe vertigo; nausea/vomiting,hearing loss; tinnitus,Severe,bacterial infection spreading from middle ear
+Labyrinthitis,sudden severe vertigo; balance loss; nausea/vomiting,sudden severe vertigo,tinnitus,Severe,viral infection of inner ear
+Labyrinthitis,sudden severe vertigo; balance loss; nausea/vomiting,sudden severe vertigo; balance loss,hearing loss; tinnitus,Severe,viral infection of inner ear
+Labyrinthitis,sudden severe vertigo; balance loss; nausea/vomiting,sudden severe vertigo; nausea/vomiting,hearing loss; tinnitus,Severe,viral infection of inner ear
+Labyrinthitis,sudden severe vertigo; balance loss; nausea/vomiting,sudden severe vertigo,hearing loss,Severe,bacterial infection spreading from middle ear
+Labyrinthitis,sudden severe vertigo; balance loss; nausea/vomiting,balance loss; nausea/vomiting,hearing loss; tinnitus,Severe,viral infection of inner ear
+Labyrinthitis,sudden severe vertigo; balance loss; nausea/vomiting,sudden severe vertigo; nausea/vomiting,tinnitus,Severe,viral infection of inner ear
+Labyrinthitis,sudden severe vertigo; balance loss; nausea/vomiting,sudden severe vertigo; balance loss,hearing loss,Severe,bacterial infection spreading from middle ear
+Labyrinthitis,sudden severe vertigo; balance loss; nausea/vomiting,sudden severe vertigo,hearing loss; tinnitus,Severe,bacterial infection spreading from middle ear
+Labyrinthitis,sudden severe vertigo; balance loss; nausea/vomiting,sudden severe vertigo; nausea/vomiting,hearing loss,Severe,viral infection of inner ear
+Benign Paroxysmal Positional Vertigo (BPPV),brief spinning vertigo; triggered by head movement,triggered by head movement,,Mild,displaced inner ear crystals (otoconia)
+Benign Paroxysmal Positional Vertigo (BPPV),brief spinning vertigo; triggered by head movement,brief spinning vertigo,nausea,Moderate,displaced inner ear crystals (otoconia)
+Benign Paroxysmal Positional Vertigo (BPPV),brief spinning vertigo; triggered by head movement,brief spinning vertigo; triggered by head movement,,Mild,head injury
+Benign Paroxysmal Paroxysmal Vertigo (BPPV),brief spinning vertigo; triggered by head movement,triggered by head movement,,Mild,displaced inner ear crystals (otoconia)
+Benign Paroxysmal Positional Vertigo (BPPV),brief spinning vertigo; triggered by head movement,brief spinning vertigo,unsteadiness,Moderate,head injury
+Benign Paroxysmal Positional Vertigo (BPPV),brief spinning vertigo; triggered by head movement,brief spinning vertigo; triggered by head movement,nausea,Moderate,displaced inner ear crystals (otoconia)
+Benign Paroxysmal Positional Vertigo (BPPV),brief spinning vertigo; triggered by head movement,triggered by head movement,nausea; unsteadiness,Moderate,head injury
+Benign Paroxysmal Positional Vertigo (BPPV),brief spinning vertigo; triggered by head movement,brief spinning vertigo,unsteadiness,Mild,displaced inner ear crystals (otoconia)
+Benign Paroxysmal Positional Vertigo (BPPV),brief spinning vertigo; triggered by head movement,brief spinning vertigo; triggered by head movement,,Moderate,head injury
+Benign Paroxysmal Positional Vertigo (BPPV),brief spinning vertigo; triggered by head movement,triggered by head movement,nausea,Moderate,displaced inner ear crystals (otoconia)
+Benign Paroxysmal Positional Vertigo (BPPV),brief spinning vertigo; triggered by head movement,brief spinning vertigo,unsteadiness,Mild,head injury
+Benign Paroxysmal Positional Vertigo (BPPV),brief spinning vertigo; triggered by head movement,brief spinning vertigo; triggered by head movement,nausea; unsteadiness,Moderate,displaced inner ear crystals (otoconia)
+Benign Paroxysmal Positional Vertigo (BPPV),brief spinning vertigo; triggered by head movement,brief spinning vertigo; triggered by head movement,unsteadiness,Moderate,head injury
+Benign Paroxysmal Positional Vertigo (BPPV),brief spinning vertigo; triggered by head movement,brief spinning vertigo,nausea,Mild,displaced inner ear crystals (otoconia)
+Benign Paroxysmal Positional Vertigo (BPPV),brief spinning vertigo; triggered by head movement,triggered by head movement,unsteadiness,Mild,displaced inner ear crystals (otoconia)
+Benign Paroxysmal Positional Vertigo (BPPV),brief spinning vertigo; triggered by head movement,triggered by head movement,nausea; unsteadiness,Moderate,displaced inner ear crystals (otoconia)
+Benign Paroxysmal Positional Vertigo (BPPV),brief spinning vertigo; triggered by head movement,brief spinning vertigo,,Mild,displaced inner ear crystals (otoconia)
+Benign Paroxysmal Positional Vertigo (BPPV),brief spinning vertigo; triggered by head movement,brief spinning vertigo; triggered by head movement,nausea,Moderate,head injury
+Acoustic Neuroma (Vestibular Schwannoma),one-sided hearing loss; tinnitus; imbalance,tinnitus,facial numbness (late),Mild,benign tumor on vestibulocochlear nerve
+Acoustic Neuroma (Vestibular Schwannoma),one-sided hearing loss; tinnitus; imbalance,hearing loss; tinnitus,facial numbness (late),Moderate,benign tumor on vestibulocochlear nerve
+Acoustic Neuroma (Vestibular Schwannoma),one-sided hearing loss; tinnitus; imbalance,hearing loss,,Moderate,genetic (NF2 in some cases)
+Acoustic Neuroma (Vestibular Schwannoma),one-sided hearing loss; tinnitus; imbalance,tinnitus; imbalance,,Mild,benign tumor on vestibulocochlear nerve
+Acoustic Neuroma (Vestibular Schwannoma),one-sided hearing loss; tinnitus; imbalance,hearing loss; tinnitus,facial numbness (late),Moderate,genetic (NF2 in some cases)
+Acoustic Neuroma (Vestibular Schwannoma),one-sided hearing loss; tinnitus; imbalance,tinnitus; imbalance,,Moderate,benign tumor on vestibulocochlear nerve
+Acoustic Neuroma (Vestibular Schwannoma),one-sided hearing loss; tinnitus; imbalance,hearing loss,facial numbness (late),Mild,benign tumor on vestibulocochlear nerve
+Acoustic Neuroma (Vestibular Schwannoma),one-sided hearing loss; tinnitus; imbalance,hearing loss; imbalance,,Moderate,benign tumor on vestibulocochlear nerve
+Acoustic Neuroma (Vestibular Schwannoma),one-sided hearing loss; tinnitus; imbalance,tinnitus; imbalance,,Mild,genetic (NF2 in some cases)
+Acoustic Neuroma (Vestibular Schwannoma),one-sided hearing loss; tinnitus; imbalance,hearing loss; tinnitus,,Moderate,benign tumor on vestibulocochlear nerve
+Acoustic Neuroma (Vestibular Schwannoma),one-sided hearing loss; tinnitus; imbalance,tinnitus; imbalance,facial numbness (late),Moderate,benign tumor on vestibulocochlear nerve
+Acoustic Neuroma (Vestibular Schwannoma),one-sided hearing loss; tinnitus; imbalance,hearing loss; tinnitus,,Mild,genetic (NF2 in some cases)
+Acoustic Neuroma (Vestibular Schwannoma),one-sided hearing loss; tinnitus; imbalance,hearing loss,,Moderate,benign tumor on vestibulocochlear nerve
+Acoustic Neuroma (Vestibular Schwannoma),one-sided hearing loss; tinnitus; imbalance,tinnitus; imbalance,facial numbness (late),Moderate,genetic (NF2 in some cases)
+Acoustic Neuroma (Vestibular Schwannoma),one-sided hearing loss; tinnitus; imbalance,tinnitus,,Mild,benign tumor on vestibulocochlear nerve
+Acoustic Neuroma (Vestibular Schwannoma),one-sided hearing loss; tinnitus; imbalance,hearing loss; imbalance,facial numbness (late),Moderate,benign tumor on vestibulocochlear nerve
+Acoustic Neuroma (Vestibular Schwannoma),one-sided hearing loss; tinnitus; imbalance,tinnitus; hearing loss,,Moderate,genetic (NF2 in some cases)
+Tinnitus,ringing in ears; buzzing or hissing sound,ringing in ears,,Mild,exposure to loud noise
+Tinnitus,ringing in ears; buzzing or hissing sound,buzzing or hissing sound,,Moderate,age-related hearing loss
+Tinnitus,ringing in ears; buzzing or hissing sound,ringing in ears,difficulty sleeping,Moderate,exposure to loud noise
+Tinnitus,ringing in ears; buzzing or hissing sound,buzzing or hissing sound,,Mild,exposure to loud noise
+Tinnitus,ringing in ears; buzzing or hissing sound,ringing in ears,difficulty concentrating,Moderate,age-related hearing loss
+Tinnitus,ringing in ears; buzzing or hissing sound,ringing in ears,difficulty sleeping,Moderate,age-related hearing loss
+Tinnitus,ringing in ears; buzzing or hissing sound,buzzing or hissing sound,difficulty concentrating,Moderate,age-related hearing loss
+Tinnitus,ringing in ears; buzzing or hissing sound,ringing in ears,difficulty sleeping,Mild,exposure to loud noise
+Tinnitus,ringing in ears; buzzing or hissing sound,ringing in ears,,Moderate,age-related hearing loss
+Tinnitus,ringing in ears; buzzing or hissing sound,buzzing or hissing sound,difficulty sleeping,Moderate,exposure to loud noise
+Tinnitus,ringing in ears; buzzing or hissing sound,ringing in ears,,Mild,age-related hearing loss
+Tinnitus,ringing in ears; buzzing or hissing sound,buzzing or hissing sound,difficulty concentrating,Moderate,exposure to loud noise
+Tinnitus,ringing in ears; buzzing or hissing sound,buzzing or hissing sound,difficulty sleeping,Moderate,age-related hearing loss
+Sudden Sensorineural Hearing Loss,sudden hearing loss (one ear); ear fullness; tinnitus,sudden hearing loss (one ear); ear fullness,dizziness; tinnitus,Moderate,idiopathic (unknown cause)
+Sudden Sensorineural Hearing Loss,sudden hearing loss (one ear); ear fullness; tinnitus,sudden hearing loss (one ear),dizziness,Moderate,viral infection (suspected)
+Sudden Sensorineural Hearing Loss,sudden hearing loss (one ear); ear fullness; tinnitus,ear fullness; sudden hearing loss (one ear),tinnitus,Moderate,idiopathic (unknown cause)
+Sudden Sensorineural Hearing Loss,sudden hearing loss (one ear); ear fullness; tinnitus,sudden hearing loss (one ear); tinnitus,ear fullness,Moderate,viral infection (suspected)
+Sudden Sensorineural Hearing Loss,sudden hearing loss (one ear); ear fullness; tinnitus,sudden hearing loss (one ear); ear fullness,dizziness,Moderate,idiopathic (unknown cause)
+Sudden Sensorineural Hearing Loss,sudden hearing loss (one ear); ear fullness; tinnitus,sudden hearing loss (one ear),,Moderate,idiopathic (unknown cause)
+Sudden Sensorineural Hearing Loss,sudden hearing loss (one ear); ear fullness; tinnitus,ear fullness; tinnitus,dizziness,Moderate,viral infection (suspected)
+Sudden Sensorineural Hearing Loss,sudden hearing loss (one ear); ear fullness; tinnitus,sudden hearing loss (one ear); ear fullness,,Moderate,idiopathic (unknown cause)
+Sudden Sensorineural Hearing Loss,sudden hearing loss (one ear); ear fullness; tinnitus,ear fullness; sudden hearing loss (one ear),,Moderate,idiopathic (unknown cause)
+Sudden Sensorineural Hearing Loss,sudden hearing loss (one ear); ear fullness; tinnitus,sudden hearing loss (one ear),tinnitus,Moderate,viral infection (suspected)
+Sudden Sensorineural Hearing Loss,sudden hearing loss (one ear); ear fullness; tinnitus,ear fullness; tinnitus,dizziness,Moderate,idiopathic (unknown cause)
+Sudden Sensorineural Hearing Loss,sudden hearing loss (one ear); ear fullness; tinnitus,sudden hearing loss (one ear); ear fullness,,Moderate,viral infection (suspected)
+Sudden Sensorineural Hearing Loss,sudden hearing loss (one ear); ear fullness; tinnitus,sudden hearing loss (one ear); ear fullness,tinnitus,Moderate,idiopathic (unknown cause)
+Sudden Sensorineural Hearing Loss,sudden hearing loss (one ear); ear fullness; tinnitus,ear fullness; sudden hearing loss (one ear),dizziness; tinnitus,Moderate,idiopathic (unknown cause)
+Sudden Sensorineural Hearing Loss,sudden hearing loss (one ear); ear fullness; tinnitus,sudden hearing loss (one ear),ear fullness,Moderate,viral infection (suspected)
+Sudden Sensorineural Hearing Loss,sudden hearing loss (one ear); ear fullness; tinnitus,ear fullness; sudden hearing loss (one ear),dizziness,Moderate,idiopathic (unknown cause)
+Sudden Sensorineural Hearing Loss,sudden hearing loss (one ear); ear fullness; tinnitus,sudden hearing loss (one ear); tinnitus,,Moderate,idiopathic (unknown cause)
+Presbycusis (Age-related Hearing Loss),gradual hearing loss (both ears); difficulty in noisy environments,gradual hearing loss (both ears); difficulty in noisy environments,tinnitus,Moderate,aging of inner ear
+Presbycusis (Age-related Hearing Loss),gradual hearing loss (both ears); difficulty in noisy environments,gradual hearing loss (both ears),difficulty hearing high-pitched sounds,Mild,aging of inner ear
+Presbycusis (Age-related Hearing Loss),gradual hearing loss (both ears); difficulty in noisy environments,difficulty in noisy environments; gradual hearing loss (both ears),tinnitus,Moderate,long-term noise exposure
+Presbycusis (Age-related Hearing Loss),gradual hearing loss (both ears); difficulty in noisy environments,gradual hearing loss (both ears); difficulty in noisy environments,,Mild,aging of inner ear
+Presbycusis (Age-related Hearing Loss),gradual hearing loss (both ears); difficulty in noisy environments,difficulty in noisy environments,difficulty hearing high-pitched sounds; tinnitus,Moderate,long-term noise exposure
+Presbycusis (Age-related Hearing Loss),gradual hearing loss (both ears); difficulty in noisy environments,gradual hearing loss (both ears); difficulty in noisy environments,difficulty hearing high-pitched sounds,Moderate,aging of inner ear
+Presbycusis (Age-related Hearing Loss),gradual hearing loss (both ears); difficulty in noisy environments,gradual hearing loss (both ears),tinnitus,Mild,long-term noise exposure
+Presbycusis (Age-related Hearing Loss),gradual hearing loss (both ears); difficulty in noisy environments,difficulty in noisy environments,difficulty hearing high-pitched sounds,Moderate,aging of inner ear
+Presbycusis (Age-related Hearing Loss),gradual hearing loss (both ears); difficulty in noisy environments,gradual hearing loss (both ears); difficulty in noisy environments,tinnitus,Mild,aging of inner ear
+Presbycusis (Age-related Hearing Loss),gradual hearing loss (both ears); difficulty in noisy environments,gradual hearing loss (both ears),difficulty hearing high-pitched sounds,Mild,long-term noise exposure
+Presbycusis (Age-related Hearing Loss),gradual hearing loss (both ears); difficulty in noisy environments,difficulty in noisy environments; gradual hearing loss (both ears),tinnitus,Moderate,aging of inner ear
+Presbycusis (Age-related Hearing Loss),gradual hearing loss (both ears); difficulty in noisy environments,gradual hearing loss (both ears),difficulty hearing high-pitched sounds; tinnitus,Moderate,long-term noise exposure
+Presbycusis (Age-related Hearing Loss),gradual hearing loss (both ears); difficulty in noisy environments,difficulty in noisy environments,difficulty hearing high-pitched sounds,Moderate,long-term noise exposure
+Presbycusis (Age-related Hearing Loss),gradual hearing loss (both ears); difficulty in noisy environments,gradual hearing loss (both ears),,Mild,aging of inner ear
+Presbycusis (Age-related Hearing Loss),gradual hearing loss (both ears); difficulty in noisy environments,difficulty in noisy environments,difficulty hearing high-pitched sounds; tinnitus,Moderate,aging of inner ear
+Presbycusis (Age-related Hearing Loss),gradual hearing loss (both ears); difficulty in noisy environments,difficulty in noisy environments; gradual hearing loss (both ears),difficulty hearing high-pitched sounds,Moderate,aging of inner ear
+Presbycusis (Age-related Hearing Loss),gradual hearing loss (both ears); difficulty in noisy environments,gradual hearing loss (both ears),tinnitus,Moderate,long-term noise exposure
+Presbycusis (Age-related Hearing Loss),gradual hearing loss (both ears); difficulty in noisy environments,gradual hearing loss (both ears); difficulty in noisy environments,difficulty hearing high-pitched sounds,Mild,aging of inner ear
+Hyperacusis,sensitivity to normal sounds; discomfort with loud sounds,sensitivity to normal sounds; discomfort with loud sounds,ear pain with noise,Moderate,noise-induced inner ear damage
+Hyperacusis,sensitivity to normal sounds; discomfort with loud sounds,sensitivity to normal sounds; discomfort with loud sounds,,Mild,head injury
+Hyperacusis,sensitivity to normal sounds; discomfort with loud sounds,discomfort with loud sounds,anxiety in noisy places,Moderate,noise-induced inner ear damage
+Hyperacusis,sensitivity to normal sounds; discomfort with loud sounds,sensitivity to normal sounds,,Mild,noise-induced inner ear damage
+Hyperacusis,sensitivity to normal sounds; discomfort with loud sounds,discomfort with loud sounds; sensitivity to normal sounds,ear pain with noise,Moderate,head injury
+Hyperacusis,sensitivity to normal sounds; discomfort with loud sounds,sensitivity to normal sounds; discomfort with loud sounds,,Moderate,noise-induced inner ear damage
+Hyperacusis,sensitivity to normal sounds; discomfort with loud sounds,discomfort with loud sounds,anxiety in noisy places,Mild,head injury
+Hyperacusis,sensitivity to normal sounds; discomfort with loud sounds,sensitivity to normal sounds,ear pain with noise,Moderate,head injury
+Hyperacusis,sensitivity to normal sounds; discomfort with loud sounds,discomfort with loud sounds,,Mild,noise-induced inner ear damage
+Hyperacusis,sensitivity to normal sounds; discomfort with loud sounds,sensitivity to normal sounds; discomfort with loud sounds,anxiety in noisy places,Moderate,noise-induced inner ear damage
+Hyperacusis,sensitivity to normal sounds; discomfort with loud sounds,discomfort with loud sounds,,Mild,head injury
+Hyperacusis,sensitivity to normal sounds; discomfort with loud sounds,discomfort with loud sounds,anxiety in noisy places,Moderate,head injury
+Hyperacusis,sensitivity to normal sounds; discomfort with loud sounds,sensitivity to normal sounds,,Mild,head injury
+Autoimmune Inner Ear Disease,progressive hearing loss; episodic dizziness; tinnitus,progressive hearing loss,ear fullness,Moderate,immune system attacking inner ear
+Autoimmune Inner Ear Disease,progressive hearing loss; episodic dizziness; tinnitus,progressive hearing loss; tinnitus,,Moderate,associated with autoimmune disorders
+Autoimmune Inner Ear Disease,progressive hearing loss; episodic dizziness; tinnitus,tinnitus; progressive hearing loss,,Moderate,immune system attacking inner ear
+Autoimmune Inner Ear Disease,progressive hearing loss; episodic dizziness; tinnitus,progressive hearing loss; episodic dizziness,ear fullness,Moderate,associated with autoimmune disorders
+Autoimmune Inner Ear Disease,progressive hearing loss; episodic dizziness; tinnitus,progressive hearing loss,ear fullness; tinnitus,Moderate,immune system attacking inner ear
+Autoimmune Inner Ear Disease,progressive hearing loss; episodic dizziness; tinnitus,episodic dizziness; progressive hearing loss,,Moderate,associated with autoimmune disorders
+Autoimmune Inner Ear Disease,progressive hearing loss; episodic dizziness; tinnitus,tinnitus; episodic dizziness,ear fullness,Moderate,immune system attacking inner ear
+Autoimmune Inner Ear Disease,progressive hearing loss; episodic dizziness; tinnitus,progressive hearing loss; tinnitus,ear fullness,Moderate,immune system attacking inner ear
+Autoimmune Inner Ear Disease,progressive hearing loss; episodic dizziness; tinnitus,progressive hearing loss; episodic dizziness,,Moderate,associated with autoimmune disorders
+Autoimmune Inner Ear Disease,progressive hearing loss; episodic dizziness; tinnitus,progressive hearing loss; episodic dizziness,ear fullness,Moderate,immune system attacking inner ear
+Autoimmune Inner Ear Disease,progressive hearing loss; episodic dizziness; tinnitus,episodic dizziness; tinnitus,ear fullness,Moderate,immune system attacking inner ear
+Autoimmune Inner Ear Disease,progressive hearing loss; episodic dizziness; tinnitus,progressive hearing loss,,Moderate,associated with autoimmune disorders
+Autoimmune Inner Ear Disease,progressive hearing loss; episodic dizziness; tinnitus,tinnitus; progressive hearing loss,ear fullness,Moderate,immune system attacking inner ear
+Ear Barotrauma,ear pain; hearing loss; ear pressure,ear pain,dizziness,Severe,explosive blast
+Ear Barotrauma,ear pain; hearing loss; ear pressure,ear pain; ear pressure,tinnitus; dizziness,Moderate,sudden pressure change (flying/diving)
+Ear Barotrauma,ear pain; hearing loss; ear pressure,hearing loss; ear pressure,tinnitus,Moderate,sudden pressure change (flying/diving)
+Ear Barotrauma,ear pain; hearing loss; ear pressure,ear pain; hearing loss,,Mild,sudden pressure change (flying/diving)
+Ear Barotrauma,ear pain; hearing loss; ear pressure,ear pain; ear pressure,dizziness,Moderate,explosive blast
+Ear Barotrauma,ear pain; hearing loss; ear pressure,ear pain,tinnitus,Moderate,sudden pressure change (flying/diving)
+Ear Barotrauma,ear pain; hearing loss; ear pressure,ear pain; hearing loss,tinnitus; dizziness,Severe,explosive blast
+Ear Barotrauma,ear pain; hearing loss; ear pressure,hearing loss; ear pressure,,Moderate,sudden pressure change (flying/diving)
+Ear Barotrauma,ear pain; hearing loss; ear pressure,ear pain; hearing loss,tinnitus,Moderate,sudden pressure change (flying/diving)
+Ear Barotrauma,ear pain; hearing loss; ear pressure,ear pressure; ear pain,dizziness,Moderate,explosive blast
+Ear Barotrauma,ear pain; hearing loss; ear pressure,ear pain; ear pressure,tinnitus; dizziness,Severe,explosive blast
+Ear Barotrauma,ear pain; hearing loss; ear pressure,ear pain; hearing loss,dizziness,Moderate,explosive blast
+Ear Barotrauma,ear pain; hearing loss; ear pressure,hearing loss; ear pressure,,Mild,sudden pressure change (flying/diving)
+Ear Barotrauma,ear pain; hearing loss; ear pressure,ear pain; ear pressure,tinnitus,Moderate,sudden pressure change (flying/diving)
+Ear Barotrauma,ear pain; hearing loss; ear pressure,ear pain; ear pressure,,Moderate,sudden pressure change (flying/diving)
+Ramsay Hunt Syndrome,ear pain; facial paralysis; blistering rash in ear,ear pain; blistering rash in ear,hearing loss; vertigo,Severe,varicella-zoster virus reactivation (shingles in facial nerve)
+Ramsay Hunt Syndrome,ear pain; facial paralysis; blistering rash in ear,blistering rash in ear; ear pain,vertigo; hearing loss,Severe,varicella-zoster virus reactivation (shingles in facial nerve)
+Ramsay Hunt Syndrome,ear pain; facial paralysis; blistering rash in ear,ear pain; facial paralysis,vertigo,Severe,varicella-zoster virus reactivation (shingles in facial nerve)
+Ramsay Hunt Syndrome,ear pain; facial paralysis; blistering rash in ear,ear pain; blistering rash in ear,vertigo,Severe,varicella-zoster virus reactivation (shingles in facial nerve)
+Ramsay Hunt Syndrome,ear pain; facial paralysis; blistering rash in ear,blistering rash in ear; facial paralysis,hearing loss,Severe,varicella-zoster virus reactivation (shingles in facial nerve)
+Ramsay Hunt Syndrome,ear pain; facial paralysis; blistering rash in ear,facial paralysis; blistering rash in ear,vertigo; hearing loss,Severe,varicella-zoster virus reactivation (shingles in facial nerve)
+Ramsay Hunt Syndrome,ear pain; facial paralysis; blistering rash in ear,ear pain; facial paralysis,hearing loss,Severe,varicella-zoster virus reactivation (shingles in facial nerve)
+Ramsay Hunt Syndrome,ear pain; facial paralysis; blistering rash in ear,blistering rash in ear; ear pain,hearing loss,Severe,varicella-zoster virus reactivation (shingles in facial nerve)
+Ramsay Hunt Syndrome,ear pain; facial paralysis; blistering rash in ear,ear pain; facial paralysis,vertigo; hearing loss,Severe,varicella-zoster virus reactivation (shingles in facial nerve)
+Ramsay Hunt Syndrome,ear pain; facial paralysis; blistering rash in ear,facial paralysis; blistering rash in ear,vertigo,Severe,varicella-zoster virus reactivation (shingles in facial nerve)
+Ramsay Hunt Syndrome,ear pain; facial paralysis; blistering rash in ear,ear pain; blistering rash in ear,hearing loss,Severe,varicella-zoster virus reactivation (shingles in facial nerve)
+Ramsay Hunt Syndrome,ear pain; facial paralysis; blistering rash in ear,ear pain; facial paralysis,hearing loss; vertigo,Severe,varicella-zoster virus reactivation (shingles in facial nerve)
+Ramsay Hunt Syndrome,ear pain; facial paralysis; blistering rash in ear,blistering rash in ear; facial paralysis,vertigo; hearing loss,Severe,varicella-zoster virus reactivation (shingles in facial nerve)
+Ramsay Hunt Syndrome,ear pain; facial paralysis; blistering rash in ear,facial paralysis; ear pain,hearing loss,Severe,varicella-zoster virus reactivation (shingles in facial nerve)
+Ramsay Hunt Syndrome,ear pain; facial paralysis; blistering rash in ear,ear pain; blistering rash in ear,vertigo; hearing loss,Severe,varicella-zoster virus reactivation (shingles in facial nerve)
+Ramsay Hunt Syndrome,ear pain; facial paralysis; blistering rash in ear,facial paralysis; blistering rash in ear,hearing loss; vertigo,Severe,varicella-zoster virus reactivation (shingles in facial nerve)
