@@ -9,12 +9,14 @@ logging.basicConfig(
     format="%(asctime)s - %(levelname)s - %(message)s",
 )
 
-# API Endpoints
-EVENT_API_URL = "https://api.fda.gov/drug/event.json"
+# API Endpoint
 LABEL_API_URL = "https://api.fda.gov/drug/label.json"
 
 # Headers
-HEADERS = {"accept": "application/json"}
+HEADERS = {
+    "accept": "application/json",
+    "User-Agent": "ENTDrugFetcher/1.0"
+}
 
 # Retry settings
 MAX_RETRIES = 3
@@ -23,7 +25,6 @@ TIME_LAG = 1.5  # Time delay between API requests
 
 # Load ENT Problems from JSON file
 def load_ent_problems(filename="ent_problems.json"):
-    """Loads the ENT problems from an external JSON file."""
     try:
         with open(filename, "r") as f:
             return json.load(f)
@@ -36,33 +37,43 @@ ENT_PROBLEMS = load_ent_problems()
 # Drug Label Fields to Extract
 LABEL_FIELDS = [
     "indications_and_usage", "dosage_and_administration",
-    "dosage_forms_and_strengths", "contraindications",
-    "warnings_and_cautions", "adverse_reactions",
-    "drug_interactions", "use_in_specific_populations",
-    "drug_abuse_and_dependence", "overdosage",
-    "description", "clinical_pharmacology",
-    "clinical_studies", "how_supplied"
+    "contraindications", "warnings_and_cautions",
+    "adverse_reactions", "drug_interactions",
+    "use_in_specific_populations", "description",
+    "clinical_pharmacology"
 ]
 
-def fetch_drugs_for_ent_problem(ent_problem):
-    """Fetches a list of drugs associated with a given ENT problem."""
+def fetch_drugs_for_ent_problem(ent_problem, limit=10):
+    """Fetches drugs mentioning the ENT condition in their indications_and_usage."""
     params = {
-        "search": f"patient.drug.drugindication:\"{ent_problem}\"",
-        "count": "patient.drug.openfda.generic_name.exact"
+        "search": f"indications_and_usage:\"{ent_problem}\"",
+        "limit": limit
     }
 
     for attempt in range(MAX_RETRIES):
         try:
-            logging.info(f"Fetching drugs for ENT problem: {ent_problem} (Attempt {attempt+1})")
-            response = requests.get(EVENT_API_URL, headers=HEADERS, params=params, timeout=10)
+            logging.info(f"🔍 Fetching drugs for ENT problem: {ent_problem} (Attempt {attempt+1})")
+            response = requests.get(LABEL_API_URL, headers=HEADERS, params=params, timeout=10)
             response.raise_for_status()
             data = response.json()
-            return [entry["term"] for entry in data.get("results", [])]
+            drugs = []
+
+            for result in data.get("results", []):
+                generic_names = result.get("openfda", {}).get("generic_name", [])
+                if not generic_names:
+                    logging.info(f"⚠️ Skipping result with missing generic_name for {ent_problem}")
+                    continue
+                drugs.extend(generic_names)
+                if len(drugs) >= limit:
+                    break
+
+            return list(set(drugs))[:limit]
+
         except requests.exceptions.RequestException as e:
             logging.error(f"Error fetching drugs for {ent_problem} (Attempt {attempt+1}): {e}")
             time.sleep(RETRY_DELAY)
 
-    return []  # Return empty list on failure
+    return []
 
 def fetch_drug_label(drug_name):
     """Fetches structured drug label details for a given generic drug name."""
@@ -70,46 +81,63 @@ def fetch_drug_label(drug_name):
 
     for attempt in range(MAX_RETRIES):
         try:
-            logging.info(f"Fetching label for drug: {drug_name} (Attempt {attempt+1})")
+            logging.info(f"📖 Fetching label for drug: {drug_name} (Attempt {attempt+1})")
             response = requests.get(LABEL_API_URL, headers=HEADERS, params=params, timeout=10)
             response.raise_for_status()
             data = response.json()
+
             if "results" in data:
                 label_data = data["results"][0]
-                return {field: label_data.get(field, "N/A") for field in LABEL_FIELDS}  # Filter relevant fields
+                return {field: label_data.get(field, "N/A") for field in LABEL_FIELDS}
+
             return {}
+
         except requests.exceptions.RequestException as e:
             logging.error(f"Error fetching label for {drug_name} (Attempt {attempt+1}): {e}")
             time.sleep(RETRY_DELAY)
 
-    return {}  # Return empty dict on failure
+    return {}
+
+def is_ent_relevant(label_info):
+    """Quick check to confirm ENT relevance based on label content."""
+    ENT_KEYWORDS = ["ear", "nose", "throat", "hearing", "tinnitus", "vertigo", "dizziness", "otitis", "rhinitis"]
+    combined_info = " ".join([str(label_info.get(field, "")) for field in LABEL_FIELDS])
+    return any(keyword in combined_info.lower() for keyword in ENT_KEYWORDS)
 
 def create_ent_drug_dataset():
-    """Runs the full ingestion pipeline: fetch drug list for ENT problems, get details, save to JSON."""
     ent_drug_data = {}
 
     for ent_problem in ENT_PROBLEMS:
-        logging.info(f"Processing ENT problem: {ent_problem}")
-        drugs = fetch_drugs_for_ent_problem(ent_problem)
-        logging.info(f"Found {len(drugs)} drugs for {ent_problem}")
+        try:
+            logging.info(f"🔬 Processing ENT problem: {ent_problem}")
+            drugs = fetch_drugs_for_ent_problem(ent_problem, limit=10)
+            logging.info(f"✅ Found {len(drugs)} drugs for {ent_problem}")
 
-        drug_info = {}
-        for drug in drugs:
-            logging.info(f"Fetching details for drug: {drug}")
-            label_info = fetch_drug_label(drug)
-            drug_info[drug] = label_info
-            logging.info(f"Successfully retrieved label info for {drug}")
-            time.sleep(TIME_LAG)  # Avoid API rate limits
+            drug_info = {}
+            for drug in drugs:
+                label_info = fetch_drug_label(drug)
 
-        ent_drug_data[ent_problem] = drug_info
-        logging.info(f"Completed processing for {ent_problem}")
-        time.sleep(TIME_LAG * 2)  # Additional delay between ENT problem requests
+                if is_ent_relevant(label_info):
+                    drug_info[drug] = label_info
+                    logging.info(f"✔️ Relevant drug added: {drug}")
+                else:
+                    logging.info(f"🚫 Skipped irrelevant drug: {drug}")
 
-    # Save to JSON
-    with open("ent_drug_data.json", "w") as f:
-        json.dump(ent_drug_data, f, indent=2)
-    
-    logging.info("ENT drug data ingestion complete. Data saved to ent_drug_data.json")
+                time.sleep(TIME_LAG)
+
+            ent_drug_data[ent_problem] = drug_info
+            logging.info(f"🏁 Completed {ent_problem}")
+
+            # Save intermediate progress
+            with open("ent_drug_data.json", "w") as f:
+                json.dump(ent_drug_data, f, indent=2)
+
+            time.sleep(TIME_LAG * 2)
+        except Exception as e:
+            logging.error(f"🔥 Failed to process {ent_problem}: {e}")
+            continue
+
+    logging.info("🎉 ENT drug data ingestion complete. Saved to ent_drug_data.json")
 
 if __name__ == "__main__":
     create_ent_drug_dataset()

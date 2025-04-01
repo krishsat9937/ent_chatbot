@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useRef } from "react";
 import Message from "./Message";
 import Loader from "./Loader";
 
@@ -7,6 +7,7 @@ const API_URL = `${BACKEND_URL}/chat`; // Update if hosted
 const MAX_MESSAGES = 20; // ✅ Chat limit
 
 const Chat = () => {
+    const accumulatedSymptomsRef = useRef<string[]>([]);
     const [messages, setMessages] = useState<{ role: string; content: string }[]>([]);
     const [userInput, setUserInput] = useState("");
     const [loading, setLoading] = useState(false);
@@ -32,7 +33,7 @@ const Chat = () => {
             const response = await fetch(API_URL, {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
-                body: JSON.stringify({ messages: updatedMessages }), // ✅ Send full chat history (last 20 messages)
+                body: JSON.stringify({ messages: updatedMessages, accumulated_symptoms: accumulatedSymptomsRef.current }), // ✅ Send full chat history (last 20 messages)
             });
 
             if (!response.body) {
@@ -61,18 +62,49 @@ const Chat = () => {
                         try {
                             const parsed = JSON.parse(data);
 
-                            // 🔹 Handle regular messages
-                            if (parsed.choices && parsed.choices[0].delta.content !== undefined && parsed.choices[0].delta.content !== null) {
-                                newContent += parsed.choices[0].delta.content;
-                                setMessages((prev) => {
-                                    const updatedMessages = [...prev];
-                                    updatedMessages[updatedMessages.length - 1].content = newContent;
-                                    return updatedMessages.length > MAX_MESSAGES ? updatedMessages.slice(-MAX_MESSAGES) : updatedMessages;
-                                });
+                            console.log("Parsed data:", parsed);
+
+                            if (parsed.accumulated_symptoms) {
+                                accumulatedSymptomsRef.current = parsed.accumulated_symptoms;
                             }
+
+                            // 🔹 Handle assistant messages (streamed or structured)
+                            const delta = parsed?.choices?.[0]?.delta;
+
+                            if (delta && delta.content !== undefined && delta.content !== null) {
+                                const content = delta.content;
+
+                                // 🧠 Handle streamed string content (typical for LLMs)
+                                if (typeof content === "string") {
+                                    newContent += content;
+
+                                    setMessages((prevMessages) => {
+                                        const updated = [...prevMessages];
+                                        updated[updated.length - 1].content = newContent;
+                                        return updated.length > MAX_MESSAGES
+                                            ? updated.slice(-MAX_MESSAGES)
+                                            : updated;
+                                    });
+                                }
+
+                                // 📦 Handle complete structured object (symptoms, disease, drugs, etc.)
+                                else if (typeof content === "object") {
+                                    console.log("📦 Received structured assistant response:", content);
+
+                                    setMessages((prevMessages) => {
+                                        const updated = [...prevMessages];
+                                        updated[updated.length - 1].content = content;
+                                        return updated.length > MAX_MESSAGES
+                                            ? updated.slice(-MAX_MESSAGES)
+                                            : updated;
+                                    });
+                                }
+                            }
+
 
                             // 🔹 Handle tool calls (function calls)
                             if (parsed.tool_calls) {
+                                console.log("Tool calls:", parsed.tool_calls);
                                 parsed.tool_calls.forEach((toolCall: any) => {
                                     if (toolCall.function?.arguments) {
                                         toolCallArgs += toolCall.function.arguments;
@@ -87,12 +119,24 @@ const Chat = () => {
                             }
 
                             // 🔹 Handle final tool response (like extracted diseases)
+                            // if (parsed.toolResponse) {
+                            //     setMessages((prev) => {
+                            //         let updatedMessages = [...prev, { role: "assistant", content: parsed.toolResponse }];
+                            //         return updatedMessages.length > MAX_MESSAGES ? updatedMessages.slice(-MAX_MESSAGES) : updatedMessages;
+                            //     });
+                            // }
+                            // console.log("Tool response:", parsed.toolResponse);
                             if (parsed.toolResponse) {
+                                console.log("Tool response:", parsed.toolResponse);
                                 setMessages((prev) => {
-                                    let updatedMessages = [...prev, { role: "assistant", content: parsed.toolResponse }];
-                                    return updatedMessages.length > MAX_MESSAGES ? updatedMessages.slice(-MAX_MESSAGES) : updatedMessages;
+                                    const newMessage = {
+                                        role: "assistant",
+                                        content: parsed.toolResponse, // this will be an object now
+                                    };
+                                    return [...prev, newMessage].slice(-MAX_MESSAGES);
                                 });
                             }
+
                         } catch (error) {
                             console.error("Error parsing JSON:", error);
                         }
@@ -107,12 +151,13 @@ const Chat = () => {
         }
     };
 
+
     return (
         <div className="flex flex-col h-screen bg-gray-100 dark:bg-gray-900 p-4">
             <div className="flex-grow overflow-y-auto p-2 space-y-2">
-                {messages.map((msg, index) => (
-                    <Message key={index} role={msg.role} content={msg.content} />
-                ))}
+                {messages.map((msg, index) => {
+                    return <Message key={index} role={msg.role} content={msg.content} />;
+                })}
                 {loading && <Loader />}
             </div>
 

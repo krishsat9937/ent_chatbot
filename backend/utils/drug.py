@@ -93,9 +93,10 @@ def search_drug_info(predicted_disease, medical_advice_data, cleaned_symptoms):
         drug_data = medical_advice_data[disease_name]
         
         # Get top 3 most relevant drugs based on symptom matching
-        ranked_drugs = match_drug_relevance(drug_data, cleaned_symptoms)
-        top_3_drugs = {k: drug_data[k] for k in list(ranked_drugs.keys())[:3]}
+        # ranked_drugs = match_drug_relevance(drug_data, cleaned_symptoms)
+        top_3_drugs = {k: drug_data[k] for k in list(drug_data.keys())[:3]}
         
-        return format_drug_info(top_3_drugs, disease_name)
+        # return format_drug_info(top_3_drugs, disease_name)
+        return drug_data
 
-    return f"No drug recommendations available for {disease_name}."
+    return {}

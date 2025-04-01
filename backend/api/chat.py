@@ -6,13 +6,13 @@ import asyncio
 from dotenv import load_dotenv
 import logging
 from pydantic import BaseModel
-from typing import List, Dict, Any
+from typing import List, Dict, Any, Optional
 import json
 from utils.preprocess import preprocess_text
 from utils.predict import predict_diseases
 from utils.drug import search_drug_info
 import numpy as np
-
+import traceback
 load_dotenv()
 
 logging.basicConfig(level=logging.DEBUG)  # Debug logging enabled
@@ -34,30 +34,46 @@ class Message(BaseModel):
 
 class ChatRequest(BaseModel):
     messages: List[Message]
+    accumulated_symptoms: Optional[List[str]] = []
+
 
 SYSTEM_PROMPT = {
     "role": "system",
     "content": """
-        "You are an ENT (Ear, Nose, and Throat) medical assistant. "
-        "Your task is to analyze patient messages and extract the **top 3 most relevant ENT-related symptoms** "
-        "(e.g., sore throat, ear pain, nasal congestion, dizziness, hearing loss). "
-        "If a user mentions symptoms that are **not ENT-related**, politely respond with: "
-        "'I'm sorry, but I can only assist with concerns related to the ear, nose, and throat.'"
+    You are a medical assistant integrated with function tooling. Your task is to extract all clearly mentioned symptoms from the user's message, regardless of the body region or condition.
+
+    Extraction Rules:
+    - Only extract clearly stated symptoms or complaints of illness. Do not infer or assume symptoms that are not explicitly mentioned.
+    - Return symptoms exactly as stated by the user, e.g., "ear pain", "fever", "difficulty sleeping".
+    - If no explicit symptoms are present, return an empty list [].
+    - Do NOT include greetings (e.g., "Hi", "Hello"), general well-being statements (e.g., "I feel bad"), or unrelated phrases as symptoms.
+    - Provide symptoms as a JSON list of strings, no explanations or extra content.
+
+    Example outputs:
+    - User: "Hi, I have a sore throat and nasal congestion" → Symptoms: ["sore throat", "nasal congestion"]
+    - User: "My daughter is vomiting and has high fever" → Symptoms: ["vomiting", "fever"]
+    - User: "Hey!" → Symptoms: []
+    - User: "I feel terrible" → Symptoms: []
     """
 }
 
+# Function Tool Definition
 TOOLS = [
     {
         "type": "function",
         "function": {
             "name": "extract_top_symptoms",
-            "description": "Extracts the top 3 ENT-related symptoms from the user's input.",
+            "description": "Extracts the top 3 ENT-related symptoms explicitly mentioned by the user.",
             "parameters": {
                 "type": "object",
                 "properties": {
                     "symptoms": {
-                        "type": "string",
-                        "description": "Top 3 ENT-related symptoms extracted from user input, comma-separated."
+                        "type": "array",
+                        "items": {
+                            "type": "string",
+                            "description": "A clearly identified ENT-related symptom."
+                        },
+                        "description": "List of clearly identified ENT-related symptoms."
                     }
                 },
                 "required": ["symptoms"]
@@ -66,19 +82,25 @@ TOOLS = [
     }
 ]
 
-import json
-
-async def openai_stream_response(messages, medical_advice_data):
+async def openai_stream_response(chat_request, medical_advice_data):
     """
     Async generator that streams responses from OpenAI and processes function tool calls.
     """
     try:
+        messages = chat_request.messages
+        accumulated_symptoms = chat_request.accumulated_symptoms
+
+        # logging.debug(f"Received messages: {messages}")
+        logging.debug(f"Accumulated symptoms: {accumulated_symptoms}")
+
+        # ✅ Ensure messages are formatted correctly
+        tool_choice = "auto" if len(messages) < 2 else {"type": "function", "function": {"name": "extract_top_symptoms"}}
         response = await client.chat.completions.create(
             model="gpt-4-turbo",
             messages=[SYSTEM_PROMPT, *messages],
             stream=True,
             tools=TOOLS,
-            tool_choice="auto"
+            tool_choice={"type": "function", "function": {"name": "extract_top_symptoms"}},
         )
 
         final_tool_calls = {}
@@ -126,49 +148,58 @@ async def openai_stream_response(messages, medical_advice_data):
 
             yield f"data: {json.dumps(response_data)}\n\n"
 
+        logging.debug(f"Final tool calls: {final_tool_calls}")
 
         # ✅ Process function calls after fully receiving arguments
         for index, tool_call in final_tool_calls.items():
             if tool_call["name"] == "extract_top_symptoms":
                 try:
-                    extracted_args = json.loads(tool_call["arguments"])  # ✅ Ensure proper JSON parsing
-                    extracted_symptoms = extracted_args.get("symptoms", "")
+                    logging.debug(f"Processing tool call: {tool_call}")
+                    extracted_args = json.loads(tool_call["arguments"])  # ✅ Ensure proper JSON parsing                    
+                    symptoms_list = extracted_args.get("symptoms", [])
+                    new_symptoms = [symptom for symptom in symptoms_list if symptom not in accumulated_symptoms]
+                    accumulated_symptoms.extend(new_symptoms)
+                    accumulated_symptoms = list(set(accumulated_symptoms))  # Remove duplicates
 
-                    cleaned_symptoms = preprocess_text(extracted_symptoms)
-                    predicted_disease = predict_diseases(cleaned_symptoms)
+                    logging.debug(f"Extracted Symptoms: {symptoms_list}")
+                    if not accumulated_symptoms:
+                        content_string = (
+                            "Hello! If you have any symptoms related to ear, nose, or throat concerns, "
+                            "please let me know so I can assist you further."
+                        )
+                    elif len(accumulated_symptoms) < 3:
+                        content_string = (
+                            f"I understand you're experiencing: {', '.join(accumulated_symptoms)}. "
+                            "Could you please tell me if you're experiencing additional symptoms?"
+                        )
+                    else:    
+                        cleaned_symptoms = preprocess_text(accumulated_symptoms)
+                        predicted_disease = predict_diseases(cleaned_symptoms)
 
-                    logging.debug(f"Predicted Disease: {predicted_disease} type: {type(predicted_disease)}")
+                        logging.debug(f"Predicted Disease: {predicted_disease} type: {type(predicted_disease)}")                        
 
-                    medical_advice = "Consult a doctor for an accurate diagnosis and treatment plan."
+                        drug_info = search_drug_info(predicted_disease, medical_advice_data, cleaned_symptoms)
 
-                    drug_info = search_drug_info(predicted_disease, medical_advice_data, cleaned_symptoms)
+                        if not drug_info:
+                            drug_info = {
+                                "error": "No specific medications found for this condition."
+                            }
 
-                    # Ensure the disease name is formatted correctly
-                    if isinstance(predicted_disease, np.ndarray):  # If it's a NumPy array, extract the first element
-                        predicted_disease = predicted_disease[0]
+                        # Ensure the disease name is formatted correctly
+                        if isinstance(predicted_disease, np.ndarray):  # If it's a NumPy array, extract the first element
+                            predicted_disease = predicted_disease[0]
 
-                    if not isinstance(predicted_disease, str):  # Final check to ensure it's a string
-                        predicted_disease = str(predicted_disease)
+                        if not isinstance(predicted_disease, str):  # Final check to ensure it's a string
+                            predicted_disease = str(predicted_disease)
 
-                    predicted_disease = predicted_disease.strip().title()  # Format it correctly
+                        predicted_disease = predicted_disease.strip().title()
 
-                    # Handle cases where no drugs are found
-                    if not drug_info.strip() or "No drug recommendations available" in drug_info:
-                        drug_section = "🚫 No specific medications found for this condition."
-                    else:
-                        drug_section = f"### 💊 Recommended Medications\n{drug_info}\n"
-
-                    # Final formatted response string
-                    content_string = (
-                        f"### 🏥 Predicted Condition\n"
-                        f"**Disease:** {predicted_disease}\n\n"
-                        f"{drug_section}\n"
-                        f"### ⚕️ Medical Advice\n"
-                        f"{medical_advice}\n\n"
-                        f"🔔 *Note: Consult a healthcare professional before taking any medication.*"
-                    )
-
-                    logging.debug(f"Drug Info: {drug_info}")
+                        content_string = {
+                            "symptoms": accumulated_symptoms,
+                            "disease": predicted_disease,                            
+                            "drugs": drug_info
+                        }
+                        logging.debug(f"Drug Info: {drug_info}")
 
                     function_response_data = {
                         "id": f"tool-call-{index}",
@@ -184,7 +215,8 @@ async def openai_stream_response(messages, medical_advice_data):
                                 },
                                 "finish_reason": "stop"
                             }
-                        ]
+                        ],
+                        "accumulated_symptoms": accumulated_symptoms,
                     }
 
                     yield f"data: {json.dumps(function_response_data)}\n\n"
@@ -196,6 +228,8 @@ async def openai_stream_response(messages, medical_advice_data):
         yield "data: [DONE]\n\n"
 
     except Exception as e:
+        # Log the error with traceback
+        logging.error(traceback.format_exc())
         logging.error(f"OpenAI API Error: {e}")
         yield f"data: {{'error': 'Error fetching response from OpenAI'}}\n\n"
 
@@ -212,7 +246,7 @@ async def chat(request: Request, chat_request: ChatRequest):
     if not messages:
         raise HTTPException(status_code=400, detail="Missing 'messages' field in request body.")
 
-    return StreamingResponse(openai_stream_response(messages, medical_advice_data), media_type="text/event-stream")
+    return StreamingResponse(openai_stream_response(chat_request, medical_advice_data), media_type="text/event-stream")
 
 def generate_advice(disease: str) -> str:
     """
